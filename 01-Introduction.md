@@ -5,5 +5,5 @@ The use of machine learning technologies (also in combination with data gatherin
 [Broaden to include example of autonomous vehicles]
 
 ## Areas of concern
-Areas on prime concern serving as hotspots of legal focus relate to the use of technologies that do not model broad or abstract phenomena such as the climate, the economy or urban traffic, but model varied entities—usually people, groups or firms.
+Areas on prime concern serving as hotspots of legal focus relate to the use of technologies that do not model broad or abstract phenomena such as the climate, the economy or resources, but model varied entities—usually people, groups or firms.
 
