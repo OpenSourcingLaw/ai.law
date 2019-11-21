@@ -11,4 +11,4 @@ This section considers the legal rsponsibilities for AI modelling inputs. AI mod
 
 
 
-## Format: Pictures, video and 
+## Format: Pictures, video and copyright
