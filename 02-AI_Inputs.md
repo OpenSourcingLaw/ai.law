@@ -4,7 +4,7 @@ This section considers the legal responsibilities for AI modelling inputs. AI mo
 
 ## Subject 
 ### About an individual  
-When working with data about an individual, an understanding of information privacy laws forms part of the responsibility of the work. In Australia, information privacy laws that regulate the private sector and Federal Government agencies are found in the Privacy Act 1988 (Cth). The definition of "about an individual" is a threshold quesiton considered by the Courts in the application of the Privacy Act 1988 (Cth) and this was considered in Telstra v The Privacy Commissioner. 
+When working with data about an individual, an understanding of information privacy laws forms part of the responsibility of the work. In Australia, information privacy laws that regulate the private sector and Federal Government agencies are found in the Privacy Act 1988 (Cth). The definition of "about" an individual is a threshold quesiton considered by the Courts in the application of the Privacy Act 1988 (Cth) and this was considered in _Privacy Commissioner v Telstra Corporation Limited [2017] FCAFC 4_. 
 
 ### Definition of personal information  
 Once the threshold consideration of "about an indivdual" is met, it becomes relevant to consider if the data you are working with is personal information and, therefore, whether the responsibilities defined in the Privacy Act 1988 (Cth) will apply.  
