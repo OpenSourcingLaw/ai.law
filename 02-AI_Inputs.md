@@ -13,7 +13,9 @@ Once the threshold consideration of "about an indivdual" is met, it becomes rele
 
 
 ### Principles for handling personal information   
-If the data could be characterised as personal information, Schedule 1 of the Privacy Act 1988 (Cth) defines the principles to be observed. 
+If the data could be characterised as personal information, Schedule 1 of the Privacy Act 1988 (Cth) defines the principles to be observed.  
+
+
 | APP | Short Description | Details |
 |-----|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1 | Transparency and Privacy policies | Clear, legible, accessible, APP Privacy policy that explains :,Kind of information collected;,How it is held;,- How it can be accessed to be corrected;,Process for complaints on breach of APPs.,If it is likely to be disclosed overseas |
@@ -28,7 +30,11 @@ If the data could be characterised as personal information, Schedule 1 of the Pr
 | 10 | Quality of personal information | Reasonable steps that the information is accurate up to date and complete . |
 | 11 | Security of personal information | Reasonable steps to protect the information. |
 | 12 | Access to personal information | Must provide access when requested by an individual (to their own info) . |
-| 13 | Correction of personal information | Must facilitate requests by individuals to have their information corrrected. | Understanding terms of use  
+| 13 | Correction of personal information | Must facilitate requests by individuals to have their information corrrected. |
+  
+  
+## Sources 
+## Understanding terms of use  
 Digital format revolutionised many industries where the act of copying, that was once laborious and time consuming in printed formats, became instantaneous, cheap and even incidental. Data in digital form is ubiquitous and is capable of being used for various purposes by various parties. When working with data, an understanding of the terms of its use forms part of the responsibility of the work. 
 
 ### Twitter  
