@@ -39,7 +39,7 @@ If the data could be characterised as personal information, Schedule 1 of the Pr
 ### Issues arising in AI and ML
 
 #### ACCC v Google
-On October 29, 2019 The Australian Competition and Consumer Commission (ACCC) started proceedings in the Federal Court against Google, alleging they engaged in misleading conduct and made false or misleading representations to consumers about the personal location data Google collects, keeps and uses. This is an example of a regulator enforcing APP1, which requires 
+On October 29, 2019 The Australian Competition and Consumer Commission (ACCC) started proceedings in the Federal Court against Google, alleging they engaged in misleading conduct and made false or misleading representations to consumers about the personal location data Google collects, keeps and uses. This is an example of a regulator enforcing APP1, which requires a privacy policy clearly explain how data is collected, used, held and disclosed (if applicable).
 
 
 #### Secondary uses of personal information
