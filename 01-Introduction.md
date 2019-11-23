@@ -17,7 +17,10 @@ In particular, the concerns can be structured into groupings analgous to the dev
 
 **AI inputs** - concerning the data used by AI technologies, including its subjects (human or otherwise); sources (how it is gathered) and formats (originating in text, image or video).  
 
-**AI outputs** - concerning the outcomes reached by AI techonologies, including its uses to profile and target (individuals), to decision .
+**AI outputs** - concerning the outcomes reached by AI techonologies, including its uses to profile and target (individuals), to decision (with financial or legal effect) and to  .
 
 **AI form** - concerning the physical manifesation of AI as a visual and or audio representation.
+
+## Industries and sectors of interest
+
 
