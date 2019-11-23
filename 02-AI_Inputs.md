@@ -48,10 +48,10 @@ Tweets are posts made on the social media application Twitter and . As a data so
 LinkedIn is a professional networking site with over 500million members. The platform allows members to post resumes, job listings, statuses and build profesional networks by making "connections" with other LinkedIn members. LinkedIn offers additional services including news feeds, messaging, short form publishing, online learning and from analysis of its members generates insights into [top employers](https://www.linkedin.com/pulse/top-companies-2019-where-australia-wants-work-now-natalie-macdonald/) and [workplace learning](https://learning.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/workplace-learning-report-2019/pdf/workplace-learning-report-2019.pdf). The commercial and research applications of LinkedIn member data include analysis of workforce data, sincluding supply and demand across industries, job types and educational qualifications.
 
 
-The legality of webscriponghiQ Labs harvests user profiles from LinkedIn and uses them for analysis including, for example, predicting when employees are likely to leave their jobs, o
-r where skills shortages may emergeIn 2017, 
+The legality of webscraping LinkedIn user profiles has been considered by US Courts in 2017 and again in 2019. In 2017  claiming it was an invasion of the privacy of its members and breached the terms of use of its site. hiQ Labs harvests user profiles from LinkedIn and uses them for analysis including, for example, *predicting* when employees are likely to leave their jobs. LinkedIn's [terms of use prohibits webscraping](https://www.linkedin.com/help/linkedin/answer/56347/prohibition-of-scraping-software?lang=en). On May 23, 2017, LinkedIn sent hiQ Labs a letter demanding that the company cease scraping activities and threatened legal action under the Computer Fraud and Abuse Act (CFAA). HiQ Labs sued LinkedIn, accusing the company of anticompetitive behavior and of violating the company's free speech right to access publicly available information. The US federal judge held LinkedIn cannot block third party web scrapers from scraping data from publicly available profiles.
 
-In 2019 [](http://cdn.ca9.uscourts.gov/datastore/opinions/2019/09/09/17-16783.pdf) the Ninth Circuit upheld the decision of the lower Court, granting an injunction against LinkedIn clocking hiQ from accrssing and scraping publicly available We sites 
+
+LInkedIn appealed the decision and on September 9, 2019 [](http://cdn.ca9.uscourts.gov/datastore/opinions/2019/09/09/17-16783.pdf) the Ninth Circuit upheld the decision of the lower Court, granting an injunction against LinkedIn clocking hiQ from accessing and scraping publicly available websites. 
 
 ### Facebook  
 
