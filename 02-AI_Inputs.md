@@ -63,11 +63,13 @@ Facebook is a social media platform with over 2 billion active users. Users conn
 In April 2010, Facebook launched an initial version of the Graph API, which allowed third-party developers to access and collect data about Facebook App Users. Graph API also allowed third-party developers to access and collect data about
 Affected Friends. The complaint [_United States v Facebook_ filed in July 2019](https://www.ftc.gov/system/files/documents/cases/182_3109_facebook_complaint_filed_7-24-19.pdf) revealed, for years, when Facebook asked “who do you want to see your post?” and users chose to share information only with your "friends," Facebook provided that data not only to friends but also to any of the millions of third-party apps that those friends used. 
 
-In 2018 whistleblower Chritsopher Wylie revealed the details of the harvesting of millions of facebook users profiles by Cambridge Analytica for use in targeted US political campaigning. The data was gathered using the 
+In 2018 whistleblower Chritsopher Wylie revealed the details of the harvesting of millions of facebook users profiles by Cambridge Analytica for use in targeted US political campaigning. The data was gathered by a third party application, a personality quiz app, that utilised the Graph API vulernability to access profile information of friends of the quiz users. This harvesting was outside the terms of use of third party developers and Facebook did not take active steps to deter or prevent such misuse. 
 
+A typical permitted use of Facebook data is [??? is there one??? e.g. a business page that can use the data of its 'followers'?].
 
 
 ### Google geo-coding
+Google offers a geocoding service 
 
 ### Geocoded National Address File (G-NAF)
 G-NAF dataset contains all physical addresses in Australia, over 14 million. It’s the most trusted source of geocoded addresses for Australian businesses and governments. G-NAF has a varitey of uses including building suburb profiles, locating nearby services and the management of emergencies through identificaiton of evacuation routes.  A freely available and well-mainatined version is available on [data.gov.au](https://data.gov.au/dataset/ds-dga-19432f89-dc3a-4ef3-b943-5326ef1dbecc/details?q=G-NAF). G-NAF's terms of use are described as [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/), that allows the work to be shared and adapted with the requirement of attributing the source. There is [one restriction to these terms of use](https://data.gov.au/data/dataset/19432f89-dc3a-4ef3-b943-5326ef1dbecc/resource/9a8f6baa-f790-49a0-84b1-3cb39a6a1b88/download/fact-sheet-open-g-naf-use-restriction.pdf), the data base must not be used to compile lists of addresses for the sending of phyical mail or mailouts, unless a second source has been used to verify the address(es) are capable of receiving physical mail.
