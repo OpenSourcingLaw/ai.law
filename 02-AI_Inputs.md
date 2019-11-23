@@ -37,6 +37,12 @@ If the data could be characterised as personal information, Schedule 1 of the Pr
 | 13 | Correction of personal information | Must facilitate requests by individuals to have their information corrrected. |
   
 ### Issues arising in AI and ML
+
+#### ACCC v Google
+
+
+
+#### Secondary uses of personal information
 The _Privacy Act_ makes a distinction beween primary and secondary uses of data and this has implications for AI inputs. The datasets on which ML is trained are likely to have been collected in the first place for a primary operational purpose related to the individual (e.g. to provide a treatment, to transport a passenger from A to B, to connect a customer’s phone call) (Salinger 2019).  Re-use of that dataset for training ML is potentially a secondary use, unrelated to the primary purpose.  The starting point in privacy law is that secondary uses are not allowed, unless an exception to that rule applies. "With the consent of the individual" is one such exception, but is generally not practical for large datasets.  There are other exceptions such as "for law enforcement purposes" which will generally not apply, which leaves research exceptions as the most likely path for the development of AI.  However, research exceptions (which differ in scope between the federal Privacy Act and State and Territory-based privacy laws) typically define "research" narrowly; requiring elaborate processes to balance and test the ethical implications of allowing the secondary use or disclosure of personal information without consent (such as Human Ethics Review Committees; and raise additional questions about whether the proposed research is in the public interest, such as beneficence and impact on vulnerable populations. Use of information about individuals in AI requires careful observance of the Australian Privacy principles and where it is a secondary use of data it requires extra steps to ensure its use is lawful.
 
 ### Best practice for handling personal information in data science  
