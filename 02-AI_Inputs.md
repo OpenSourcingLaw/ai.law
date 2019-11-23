@@ -37,14 +37,18 @@ If the data could be characterised as personal information, Schedule 1 of the Pr
 | 13 | Correction of personal information | Must facilitate requests by individuals to have their information corrrected. |
   
 ### Best practice for handling personal information in data science  
+
+
+
+
 ## Sources 
 ### Understanding terms of use  
-Gathering data from online social media platforms is described as "a primordial step in many data science fields" (Hernandez-Suarez _et al_ 2018). Digital formats revolutionised many industries where the act of copying, that was once laborious and time consuming in printed formats, became instantaneous, cheap and even incidental. Data in digital form is ubiquitous and is capable of being used for various purposes by various parties. When working with data, an understanding of the terms of its use forms part of the responsibility of the work. 
+Digital formats revolutionised many industries where the act of copying, that was once laborious and time consuming in printed formats, became instantaneous, cheap and even incidental. Data in digital form is ubiquitous and is capable of being used for various purposes by various parties. When working with data, an understanding of the terms of its use forms part of the responsibility of the work. 
 
 ### LinkedIn  
 LinkedIn is a professional networking site with over 500million members. The platform allows members to post resumes, job listings, statuses and build profesional networks by making "connections" with other LinkedIn members. LinkedIn offers additional services including news feeds, messaging, short form publishing, online learning and from analysis of its members generates insights into [top employers](https://www.linkedin.com/pulse/top-companies-2019-where-australia-wants-work-now-natalie-macdonald/) and [workplace learning](https://learning.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/workplace-learning-report-2019/pdf/workplace-learning-report-2019.pdf). The commercial and research applications of LinkedIn member data include analysis of workforce data, sincluding supply and demand across industries, job types and educational qualifications.
 
-The legality of webscraping LinkedIn user profiles has been considered by US Courts in 2017 and again in 2019. In 2017  claiming it was an invasion of the privacy of its members and breached the terms of use of its site. hiQ Labs harvests user profiles from LinkedIn and uses them for analysis including, for example, *predicting* when employees are likely to leave their jobs. LinkedIn's [terms of use prohibits webscraping](https://www.linkedin.com/help/linkedin/answer/56347/prohibition-of-scraping-software?lang=en). On May 23, 2017, LinkedIn sent hiQ Labs a letter demanding that the company cease scraping activities and threatened legal action under the Computer Fraud and Abuse Act (CFAA). HiQ Labs sued LinkedIn, accusing the company of anticompetitive behavior and of violating the company's free speech right to access publicly available information. The US federal judge held LinkedIn cannot block third party web scrapers from scraping data from publicly available profiles.
+The legality of webscraping LinkedIn user profiles has been considered by US Courts in 2017 and again in 2019. HiQ Labs harvests user profiles from LinkedIn and uses them for analysis including, for example, *predicting* when employees are likely to leave their jobs. LinkedIn's [terms of use prohibits webscraping](https://www.linkedin.com/help/linkedin/answer/56347/prohibition-of-scraping-software?lang=en). On May 23, 2017, LinkedIn sent hiQ Labs a letter demanding that the company cease scraping activities and threatened legal action under the Computer Fraud and Abuse Act (CFAA). HiQ Labs sued LinkedIn, accusing the company of anticompetitive behavior and of violating the company's free speech right to access publicly available information. The US federal judge held LinkedIn cannot block third party web scrapers from scraping data from publicly available profiles.
 
 LinkedIn appealed the decision and on September 9, 2019 the Ninth Circuit upheld the decision of the lower Court, granting an injunction against LinkedIn clocking hiQ from accessing and scraping publicly available websites, [HiQ Labs V. LinkedIn](http://cdn.ca9.uscourts.gov/datastore/opinions/2019/09/09/17-16783.pdf). 
 
@@ -54,12 +58,18 @@ Twitter is a social media application with over 300million active users. The pla
 In contrast to LinkedIn, where professional resumes may be considered collections of facts, the strings of text and images available in tweets may be characterised as copyright material, depnding on the circumstances. This legality of these forms of content is discussed below in formats.
 
 ### Facebook  
+Facebook is a social media platform with over 2 billion active users. Users connect with friends, post and interact with status updates and use instant messaging amongst other free features. Facebook's [terms of use expressly prohibit scraping](https://www.facebook.com/apps/site_scraping_tos_terms.php). 
+
 
 
 ### Google geo-coding
 
+### Geocoded National Address File (GNAF)
+A freely available and well mainatined geocoding data source is 
 
 ## Format: Text, Pictures, video and, copyright
 
 #### References for this chapter
+Gathering data from online social media platforms is described as "a primordial step in many data science fields" (Hernandez-Suarez _et al_ 2018).
+
 A. Hernandez-Suarez, A., Sanchez-Perez, G., Toscano-Medina, K., Martinez-Hernandez, V., Sanchez, V. and Perez-Meana H., (2018) 'A web scraping methodology for bypassing Twitter API restrictions', arXiv:1803.09875 [cs.IR], <https://arxiv.org/pdf/1803.09875.pdf>
