@@ -2,7 +2,7 @@
 # Introduction
 
 ## Objective of this work
-This text aims to situate legal responsibilities and liabilities in contexts relatable to data scientists and machine learning engineers, including managers and executives of organisation developing AI. Equally, it is a resource for educators and trainers of data scientists. The need for this text arose where legal expositions of the topic of AI law are typically written by lawyers, for lawyers, structured around areas of law familar to legal professionals and less accessible to practitioners of AI. By structuring legal considerations around tasks, concepts and processes relatable to data scientists, the work seeks to enable data science best practice.
+This text aims to situate legal responsibilities and liabilities in contexts relatable to data scientists and machine learning engineers, including managers and executives of organisations developing AI. Equally, it is a resource for educators and trainers of data scientists. The need for this text arose where legal expositions of the topic of AI law are typically written by lawyers, for lawyers, structured around areas of law familar to legal professionals and less accessible to practitioners of AI. By structuring legal considerations around tasks, concepts and processes relatable to data scientists, the work seeks to enable data science best practice.
 
 
 ## Defining AI
