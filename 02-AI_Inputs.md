@@ -64,10 +64,11 @@ Facebook is a social media platform with over 2 billion active users. Users conn
 
 ### Google geo-coding
 
-### Geocoded National Address File (GNAF)
-A freely available and well mainatined geocoding data source is 
+### Geocoded National Address File (G-NAF)
+G-NAF dataset contains all physical addresses in Australia, over 14 million. It’s the most trusted source of geocoded addresses for Australian businesses and governments. G-NAF has a varitey of uses including building suburb profiles, locating nearby services and the management of emergencies through identificaiton of evacuation routes.  A freely available and well-mainatined version is available on [data.gov.au](https://data.gov.au/dataset/ds-dga-19432f89-dc3a-4ef3-b943-5326ef1dbecc/details?q=G-NAF). G-NAF's terms of use are described as [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/), that allows the work to be shared and adapted with the requirement of attributing the source. There is [one restriction to these terms of use](https://data.gov.au/data/dataset/19432f89-dc3a-4ef3-b943-5326ef1dbecc/resource/9a8f6baa-f790-49a0-84b1-3cb39a6a1b88/download/fact-sheet-open-g-naf-use-restriction.pdf), the data base must not be used to compile lists of addresses for the sending of phyical mail or mailouts, unless a second source has been used to verify the address(es) are capable of receiving physical mail.
 
 ## Format: Text, Pictures, video and, copyright
+
 
 #### References for this chapter
 Gathering data from online social media platforms is described as "a primordial step in many data science fields" (Hernandez-Suarez _et al_ 2018).
