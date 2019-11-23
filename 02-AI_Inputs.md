@@ -22,7 +22,7 @@ If the data could be characterised as personal information, Schedule 1 of the Pr
 
 | APP | Short Description | Details |
 |-----|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1 | Transparency and Privacy policies | Clear, legible, accessible, APP Privacy policy that explains : <ul><li> the kind of information collected; </li> <li> how it is held; </li> <li> how it can be accessed to be corrected;</li>  <li> process for complaints on breach of APPs.</li>  <li> if it is likely to be disclosed overseas</li> |
+| 1 | Transparency and Privacy policies | A requirement for a clear, legible, accessible, privacy policy that explains: <ul><li>the kind of information collected; </li> <li>how it is held; </li> <li>how it can be accessed to be corrected;</li>  <li>process for complaints on breach of APPs;</li>  <li>if it is likely to be disclosed overseas.</li> |
 | 2 | Anonymity and Psuedonymity | Reflects 'right to be anonymous' and gives individuals the option of not identifying themselves. |
 | 3 | Collection of solicited information | Provides when and how an organisation may collect personal and sensitive information. Must not be collected unless it is reasonably necessary to an organisations activities (service it delivers) . |
 | 4 | Unsolicited information | Obligations on receipt of information it did not solicit. Would the organisation have been able to collect the information under APP 3 (reasonably necessary to its activities); if so APPs 5-13 will apply to the info. If there is no reasonable grounds for having the info it must be destroyed or de-identified. |
@@ -39,7 +39,7 @@ If the data could be characterised as personal information, Schedule 1 of the Pr
 ### Issues arising in AI and ML
 
 #### ACCC v Google
-
+On October 29, 2019 The Australian Competition and Consumer Commission (ACCC) started proceedings in the Federal Court against Google, alleging they engaged in misleading conduct and made false or misleading representations to consumers about the personal location data Google collects, keeps and uses. This is an example of a regulator enforcing APP1, which requires 
 
 
 #### Secondary uses of personal information
