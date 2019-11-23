@@ -15,3 +15,5 @@ recent case
 
 ## Pricing  
 Algorithmic pricing
+
+## Decisioning
