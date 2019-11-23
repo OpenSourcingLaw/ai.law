@@ -12,8 +12,11 @@ Australian legislation provides protections to prevent the vulnerabilities of in
 
 recent case
 
+### Banking sector focus: peronal vs general advice
 
 ## Pricing  
-Algorithmic pricing
+Algorithmic pricing and competiion law
 
 ## Decisioning
+AI decisions with legal or financial effect.
+
