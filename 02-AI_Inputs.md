@@ -1,6 +1,6 @@
 # AI Inputs
 
-This section considers the legal responsibilities for AI modelling inputs. AI model inputs are typically in the form of data. That data may be about different subjects, be from various sources and exist in different forms. Depending on the subject, source and format different aspects of legal responsibility and liability arise. This are considered in the following sub-sections, subject; source and format.  
+This section considers the legal responsibilities for AI modelling inputs. AI model inputs are typically in the form of data. That data may be about different subjects, be from various sources and exist in different forms. Depending on the subject, source and format different aspects of legal responsibility and liability arise. These are considered in the following sub-sections, subject; source and format.  
 
 ## Subject 
 ### About an individual  
@@ -62,6 +62,8 @@ Facebook is a social media platform with over 2 billion active users. Users conn
 
 In April 2010, Facebook launched an initial version of the Graph API, which allowed third-party developers to access and collect data about Facebook App Users. Graph API also allowed third-party developers to access and collect data about
 Affected Friends. The complaint [_United States v Facebook_ filed in July 2019](https://www.ftc.gov/system/files/documents/cases/182_3109_facebook_complaint_filed_7-24-19.pdf) revealed, for years, when Facebook asked “who do you want to see your post?” and users chose to share information only with your "friends," Facebook provided that data not only to friends but also to any of the millions of third-party apps that those friends used. 
+
+In 2018 whistleblower Chritsopher Wylie revealed the details of the harvesting of millions of facebook users profiles by Cambridge Analytica for use in targeted US political campaigning. The data was gathered using the 
 
 
 
