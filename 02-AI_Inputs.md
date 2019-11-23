@@ -60,6 +60,9 @@ In contrast to LinkedIn, where professional resumes may be considered collection
 ### Facebook  
 Facebook is a social media platform with over 2 billion active users. Users connect with friends, post and interact with status updates and use instant messaging amongst other free features. Facebook's [terms of use expressly prohibit scraping](https://www.facebook.com/apps/site_scraping_tos_terms.php). 
 
+In April 2010, Facebook launched an initial version of the Graph API, which allowed third-party developers to access and collect data about Facebook App Users. Graph API also allowed third-party developers to access and collect data about
+Affected Friends. The complaint [_United States v Facebook_ filed in July 2019](https://www.ftc.gov/system/files/documents/cases/182_3109_facebook_complaint_filed_7-24-19.pdf) revealed, for years, when Facebook asked “who do you want to see your post?” and users chose to share information only with your "friends," Facebook provided that data not only to friends but also to any of the millions of third-party apps that those friends used. 
+
 
 
 ### Google geo-coding
