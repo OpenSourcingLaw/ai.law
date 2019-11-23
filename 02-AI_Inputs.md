@@ -6,7 +6,7 @@ This section considers the legal responsibilities for AI modelling inputs. AI mo
 ### About an individual  
 When working with data about an individual, an understanding of information privacy laws forms part of the responsibility of the work. In Australia, information privacy laws that regulate the private sector and Federal Government agencies are found in the _Privacy Act 1988_ (Cth) (the _Privacy Act_). The definition of "about" an individual is a threshold quesiton considered by the Courts in the application of the _Privacy Act_. 
 
-In _Privacy Commissioner v Telstra Corporation Limited [2017] FCAFC 4_ the full Federal Court affirmed that just because a person's identity is reasonably ascertainable from a piece of information it does not mean it is personal information under the _Privacy Act_. The defintion requires it must also be about a individual. In that case, journalist Ben Grubb a journalist, asked Telstra for all the metadata that it held about him (around the same time the mandatory metadata retention laws were being debated). Telstra initially gave Mr Grubb some information, but refused to give him access to its mobile network data, which included metadata such as IP addresses and geolocation data. Mr Grubb then complained to the Privacy Commissioner. The Privacy Commissioner determined the mobile network data information in question was "personal information" as Mr Grubb’s identity could be reasonably ascertained from the information by using other information held by Telstra. Telstra appealed to the Administrative Appeals Tribunal (AAT) which formed the view tha that mobile network data was about connections between mobile devices and not "about" Mr Grubb. This was upheld by the Full Federal Court that did not find it necessay to consider if mobile network data was personal information because the threshold question has not been met.
+In _Privacy Commissioner v Telstra Corporation Limited [2017] FCAFC 4_ the full Federal Court affirmed that just because a person's identity is reasonably ascertainable from a piece of information it does not mean it is personal information under the _Privacy Act_. The defintion requires it must also be "about" a individual. In that case, journalist Ben Grubb asked Telstra for all the metadata that it held about him (around the same time the mandatory metadata retention laws were being debated). Telstra initially gave Mr Grubb some information, but refused to give him access to its mobile network data, which included metadata such as IP addresses and geolocation data. Mr Grubb then complained to the Privacy Commissioner. The Privacy Commissioner determined the mobile network data information in question was "personal information" as Mr Grubb’s identity could be reasonably ascertained from the information by using other information held by Telstra. Telstra appealed to the Administrative Appeals Tribunal which formed the view that mobile network data was about connections between mobile devices and not "about" Mr Grubb. This was upheld by the Full Federal Court that did not find it necessay to consider if mobile network data was personal information because the threshold question has not been met.
 
 At the same time, the mandatory data retention provisions in the _Telecommunications (Interception and Access) Act 1979_ (Cth) section 187LA  deems information that must be retained by telecommunications companies as being personal information “about an individual” if the information relates to the individual or a communication to which the individual is a party.
 
@@ -36,7 +36,7 @@ If the data could be characterised as personal information, Schedule 1 of the Pr
 | 12 | Access to personal information | Must provide access when requested by an individual (to their own info). |
 | 13 | Correction of personal information | Must facilitate requests by individuals to have their information corrrected. |
   
-  
+### Best practice for handling personal information in data science  
 ## Sources 
 ### Understanding terms of use  
 Digital formats revolutionised many industries where the act of copying, that was once laborious and time consuming in printed formats, became instantaneous, cheap and even incidental. Data in digital form is ubiquitous and is capable of being used for various purposes by various parties. When working with data, an understanding of the terms of its use forms part of the responsibility of the work. 
@@ -45,11 +45,13 @@ Digital formats revolutionised many industries where the act of copying, that wa
 Tweets are posts made on the social media application Twitter and . As a data source, Twitter is used in research across a number of disciplines, such as sociology, computer science, media and communication, political science and engineering. Twitter makes it data available via a number of Application Programming Interfaces
 
 ### LinkedIn  
-LinkedIn is a profssional networking site with over 500million members. The platform allows members to post resumes, job listings, statuses and build profesional networks by making "connections" with other LinkedIn members. The commercial and research applications of LinkedIn member data include the 
+LinkedIn is a professional networking site with over 500million members. The platform allows members to post resumes, job listings, statuses and build profesional networks by making "connections" with other LinkedIn members. LinkedIn offers additional services including news feeds, messaging, short form publishing, online learning and from analysis of its members generates insights into [top employers](https://www.linkedin.com/pulse/top-companies-2019-where-australia-wants-work-now-natalie-macdonald/) and [workplace learning](https://learning.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/workplace-learning-report-2019/pdf/workplace-learning-report-2019.pdf). The commercial and research applications of LinkedIn member data include analysis of workforce data, sincluding supply and demand across industries, job types and educational qualifications.
 
-In 2017, 
 
-In 2019 http://cdn.ca9.uscourts.gov/datastore/opinions/2019/09/09/17-16783.pdf the Ninth Circuit upheld the decision of the lower Court, graniting an injunction against LinkedIn clocking hiQ from accrssing and scraping publicly available We sites 
+The legality of webscriponghiQ Labs harvests user profiles from LinkedIn and uses them for analysis including, for example, predicting when employees are likely to leave their jobs, o
+r where skills shortages may emergeIn 2017, 
+
+In 2019 [](http://cdn.ca9.uscourts.gov/datastore/opinions/2019/09/09/17-16783.pdf) the Ninth Circuit upheld the decision of the lower Court, granting an injunction against LinkedIn clocking hiQ from accrssing and scraping publicly available We sites 
 
 ### Facebook  
 
@@ -57,4 +59,4 @@ In 2019 http://cdn.ca9.uscourts.gov/datastore/opinions/2019/09/09/17-16783.pdf t
 ### Google geo-coding
 
 
-## Format: Pictures, video and, copyright
+## Format: Text, Pictures, video and, copyright
