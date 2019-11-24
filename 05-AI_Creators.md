@@ -1,10 +1,10 @@
 # AI Creators
-Practical advice for data scientists and machine learning engineers with regard to the intellectual property regimes they work within.
+Practical advice for data scientists and machine learning engineers with regard to the intellectual property (IP) regimes they work within.
 
 ## What to look for: Hackathons
 Two things to look for when reviewing hacksthon (or other data science compeitions) terms and conditions
 
-### The 'I keep all IP' clause
+### The 'I keep all' IP clause
 "All IP produced during the hackathon will belong to the participants."
 
 ### The 'I own it but you can use it for free' IP Clause
