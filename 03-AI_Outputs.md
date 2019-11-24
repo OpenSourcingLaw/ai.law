@@ -3,9 +3,7 @@
 By definition, AI achieves human-like intelligence as evidenced in its ability to reach decisions based on the data it consumes. 
 
 ## Profiling and targeting   
-A common use of machine learning is to categorise indivduals based on the information avaiabile about them, incuding . When working on profiling technology, the applicable legislation includes Australia's anti-discrimination laws
-
-### Anti discrimination laws 
+A common use of machine learning is to categorise indivduals based on the information avaiabile about them, incuding . When working on profiling technology, the applicable legislation includes consumer law.s
 
 ### Unconscionable conduct
 Profiling and Targeting vulnerable groups may be characterised as unconscionable conduct. Australian Consumer Law (ACL) protects consumers and businesses from unconscionable conduct. The prohibition on unconscionable conduct is found in s21 of the ACL, within Schedule 2 _Competition and Consumer Act 2010_ (Cth) (the “_CCA_”).
@@ -18,11 +16,12 @@ On June 12, 2019, The High Court of Australia held unconscionable conduct did no
 
 The Court will take in all the circumstances of the case.
 
-### Banking sector focus: peronal vs general advice
+### Banking sector focus: personal vs general advice
 _ASIC v Westpac_
 
 ## Pricing  
-Algorithmic pricing services are marketed to businesses offering to set their prices at the optimum level. This conduct has been highlighted in research literature as a potential area of interest for regulators. Throught the configuration of the system in either of the scenarios below, price collusion behaviour is exhibited by the algorithms.
+Algorithmic pricing services are marketed to businesses offering to set their prices at the optimum level. This conduct has been highlighted in research literature as a potential area of interest for regulators. Through the configuration of the system in either of the scenarios below, price collusion behaviour is exhibited by the algorithms.
+
 ### Scenarios
 Several businesses use the same provider of the pricing algorithm
 Use of re-enforcement learning algorithms that learn the collusive behaviour
