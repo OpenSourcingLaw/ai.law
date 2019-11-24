@@ -1,11 +1,11 @@
 
-# AI Outputs  
+# 3 AI Outputs  
 By definition, AI achieves human-like intelligence as evidenced in its ability to reach decisions based on the data it consumes. 
 
-## Profiling and targeting   
+## 3.1 Profiling and targeting   
 A common use of machine learning is to categorise indivduals based on the information avaiabile about them, incuding creating profiles and targeting users based on the profiles created. 
 
-### Unconscionable conduct
+### 3.1.1 Unconscionable conduct
 When working on profiling and targeting technology, the nature of the profile itself is to be considered in the context of legal prohibitions on unconscionable conduct. Consider, for example, a profile that is created based on a individual's behaviour that it is defined with reference to a form of vulnerability, such as individuals with gambling problems. In this speculative scenario, targeting users with a profile of "gambling problem" with ads for services that assist with gambling addictions might go against good conscious. To target the same group with gambling sites and related services may be regarded less favourably. Australian Consumer Law (ACL) protects consumers and businesses from unconscionable conduct. The prohibition on unconscionable conduct is found in s21 of the ACL, within Schedule 2 _Competition and Consumer Act 2010_ (Cth) (the “_CCA_”).
  
 On September 27, 2018 the Federal Court found unconscionable conduct existed in the facts of the case, _Australian Competition Consumer Commission v Equifax Australia Information Services Pty Ltd [2018] FCA 1637_. In that case the ACCC alleged Equifax used unfair sales tactic on consumers who were vulnerable. The ACCC argued that Equifax acted unconscionably in selling fee based credit reporting services to vulnerable customers, who were often in difficult circumstances.
@@ -18,16 +18,16 @@ The concept of unconscionable conduct is intentionally broad . The Court will ta
 
 Profiling and Targeting vulnerable groups may be characterised as unconscionable conduct. 
 
-### Banking sector focus: personal vs general advice
+### 3.1.2 Banking sector focus: personal vs general advice
 _ASIC v Westpac_
 
-## Pricing  
+## 3.2 Pricing  
 Algorithmic pricing services are marketed to businesses offering to set their prices at the optimum level. This conduct has been highlighted in research literature as a potential area of interest for regulators. Through the configuration of the system in either of the scenarios below, price collusion behaviour is exhibited by the algorithms.
 
-### Scenarios
+### 3.2.1 Scenarios
 Several businesses use the same provider of the pricing algorithm
 Use of re-enforcement learning algorithms that learn the collusive behaviour
 
-## Decisioning
+## 3.3 Decisioning
 AI decisions with legal or financial effect.
 
