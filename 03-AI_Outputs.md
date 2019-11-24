@@ -3,10 +3,10 @@
 By definition, AI achieves human-like intelligence as evidenced in its ability to reach decisions based on the data it consumes. 
 
 ## Profiling and targeting   
-A common use of machine learning is to categorise indivduals based on the information avaiabile about them, incuding . When working on profiling technology, the applicable legislation includes consumer law.s
+A common use of machine learning is to categorise indivduals based on the information avaiabile about them, incuding creating profiles and targeting users based on the profiles created. 
 
 ### Unconscionable conduct
-Profiling and Targeting vulnerable groups may be characterised as unconscionable conduct. Australian Consumer Law (ACL) protects consumers and businesses from unconscionable conduct. The prohibition on unconscionable conduct is found in s21 of the ACL, within Schedule 2 _Competition and Consumer Act 2010_ (Cth) (the “_CCA_”).
+When working on profiling and targeting technology, the nature of the profile itself is to be considered in the context of legal prohibitions on unconscionable conduct. Consider, for example, a profile that is created based on a individual's behaviour that it is defined with reference to a form of vulnerability, such as individuals with gambling problems. In this speculative scenario, targeting users with a profile of "gambling problem" with ads for services that assist with gambling addictions might go against good conscious. To target the same group with gambling sites and related services may be regarded less favourably. Australian Consumer Law (ACL) protects consumers and businesses from unconscionable conduct. The prohibition on unconscionable conduct is found in s21 of the ACL, within Schedule 2 _Competition and Consumer Act 2010_ (Cth) (the “_CCA_”).
  
 On September 27, 2018 the Federal Court found unconscionable conduct existed in the facts of the case, _Australian Competition Consumer Commission v Equifax Australia Information Services Pty Ltd [2018] FCA 1637_. In that case the ACCC alleged Equifax used unfair sales tactic on consumers who were vulnerable. The ACCC argued that Equifax acted unconscionably in selling fee based credit reporting services to vulnerable customers, who were often in difficult circumstances.
                
@@ -14,7 +14,9 @@ The _Australian Securities and Investments Commission Act 2001_ (Cth) (_ASIC Act
 
 On June 12, 2019, The High Court of Australia held unconscionable conduct did not exist in the facts of the case, _ASIC v Kobelt [2019] HCA 18_. The operator of a general store within a remote indigenous community sought authority to access customers Centrelink payments in full. In appeal the court found that the conduct was not unconscionable as the customers entered the system voluntarily and had a basic understanding of how it worked.
 
-The Court will take in all the circumstances of the case.
+The concept of unconscionable conduct is intentionally broad . The Court will take ino the circumstances of the case, including
+
+Profiling and Targeting vulnerable groups may be characterised as unconscionable conduct. 
 
 ### Banking sector focus: personal vs general advice
 _ASIC v Westpac_
