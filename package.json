@@ -16,9 +16,7 @@
   "authors": "passiona cottee, ",
   "license": "Creative Commons International 4.0",
   "devDependencies": {
-    "gh-pages": "^2.1.1"
-  },
-  "dependencies": {
+    "gh-pages": "^2.1.1",
     "gitbook-cli": "^2.3.2"
   }
 }
