@@ -74,6 +74,8 @@ Affected Friends. The complaint [_United States v Facebook_ filed in July 2019](
 
 In 2018 whistleblower Chritsopher Wylie revealed the details of the harvesting of millions of facebook users profiles by Cambridge Analytica for use in targeted US political campaigning. The data was gathered by a third party application, a personality quiz app, that utilised the Graph API vulernability to access profile information of friends of the quiz users. This harvesting was outside the terms of use of third party developers and Facebook did not take active steps to deter or prevent such misuse. 
 
+In 2019 Facebook was fined USD$50billion by the US Federal Trade Commission for repeated, continued failures to protect privacy of its users.
+
 A typical permitted use of Facebook data is [??? is there one??? e.g. a business page that can use the data of its 'followers'?].
 
 
@@ -82,6 +84,9 @@ Google offers a geocoding service
 
 ### Geocoded National Address File (G-NAF)
 G-NAF dataset contains all physical addresses in Australia, over 14 million. It’s the most trusted source of geocoded addresses for Australian businesses and governments. G-NAF has a varitey of uses including building suburb profiles, locating nearby services and the management of emergencies through identificaiton of evacuation routes.  A freely available and well-mainatined version is available on [data.gov.au](https://data.gov.au/dataset/ds-dga-19432f89-dc3a-4ef3-b943-5326ef1dbecc/details?q=G-NAF). G-NAF's terms of use are described as [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/), that allows the work to be shared and adapted with the requirement of attributing the source. There is [one restriction to these terms of use](https://data.gov.au/data/dataset/19432f89-dc3a-4ef3-b943-5326ef1dbecc/resource/9a8f6baa-f790-49a0-84b1-3cb39a6a1b88/download/fact-sheet-open-g-naf-use-restriction.pdf), the data base must not be used to compile lists of addresses for the sending of phyical mail or mailouts, unless a second source has been used to verify the address(es) are capable of receiving physical mail.
+
+### Best practice for terms of use in data science . 
+Best practice requires adherence to terms of service, acknowledgement of the distinction between private and public information, an use of quality open data. When tthe legality of webscraping and api use in HiQ v Linkedin, LinkedIn was prohibited from enforcing its anti-wescarping terms of use. In contrast, Facebook was penalised by the regulator (the FTC) for not enforcing its terms of service with respect to third parties accessing friend's profiles. The unifying thread between each of these factual scenarios, at their very heart, was the nature of the information concerned, specifciall,y private or public data. In the LinkedIn case, users clearly marked profiles as 'public'. In the Facebook investigation, users who had selected 'private' settings were not protected. Look for online dta sources that are well maintained labelled clearly as intended for use, for example with Creative Commons licenses as shown with the G-NAF dataset.
 
 ## Format: Text, Pictures, video and, copyright
 
