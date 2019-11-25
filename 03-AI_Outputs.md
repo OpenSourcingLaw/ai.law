@@ -47,5 +47,5 @@ Relevent to the practice of AI and ML, is the class of discrimination called ind
 
     Industry focus: Insurance
     There is an exception to Australia's anti-discrimination laws for Insurance. For data scientists, 
-    knowledge of this distcinciton between insurance models and models in other industries is vital. 
+    knowledge of this distinciton between insurance models and models in other industries is vital. 
     The exception does not apply automatically and is described, as follows:
