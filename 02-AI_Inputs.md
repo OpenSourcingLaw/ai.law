@@ -56,7 +56,7 @@ There is an excellent [Guide to data analytics and the Australian Privacy Princi
 * Be open and transparent about privacy practices;
 * Organisations undertaking data analytics activities should include general information abou those activities in their APP privacy policy;
 * Using ‘all the data’ for ‘unknown purposes’ will expose organisations to privacy compliance risks.
-Other methods to minimise the use of personal information include the use of age ranges in place of a specific age. The benefit of working with volumnous and granular, transactional and behaviourial data is that patterns in such data itself can be more insightful than crude measures such as age and gender, and may even lead to greater accuracy than the use of personal information.
+Other methods to minimise the use of personal information include the use of age ranges in place of a specific age. The benefit of working with voluminous and granular, transactional and behaviourial data is that patterns in such data itself can be more insightful than crude measures such as age and gender, and may even lead to greater accuracy than the use of personal information. 
 
 ## 2.2 Sources 
 ### 2.2.1 Understanding terms of use  
