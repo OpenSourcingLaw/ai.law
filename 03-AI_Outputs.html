@@ -212,27 +212,42 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="ai-outputs">AI Outputs</h1>
+                                <h1 id="3-ai-outputs">3. AI Outputs</h1>
 <p>By definition, AI achieves human-like intelligence as evidenced in its ability to reach decisions based on the data it consumes. </p>
-<h2 id="profiling-and-targeting">Profiling and targeting</h2>
+<h2 id="31-profiling-and-targeting">3.1 Profiling and targeting</h2>
 <p>A common use of machine learning is to categorise indivduals based on the information avaiabile about them, incuding creating profiles and targeting users based on the profiles created. </p>
-<h3 id="unconscionable-conduct">Unconscionable conduct</h3>
-<p>When working on profiling and targeting technology, the nature of the profile itself is to be considered in the context of legal prohibitions on unconscionable conduct. Consider, for example, a profile that is created based on a individual&apos;s behaviour that it is defined with reference to a form of vulnerability, such as individuals with gambling problems. In this speculative scenario, targeting users with a profile of &quot;gambling problem&quot; with ads for services that assist with gambling addictions might go against good conscious. To target the same group with gambling sites and related services may be regarded less favourably. Australian Consumer Law (ACL) protects consumers and businesses from unconscionable conduct. The prohibition on unconscionable conduct is found in s21 of the ACL, within Schedule 2 <em>Competition and Consumer Act 2010</em> (Cth) (the &#x201C;<em>CCA</em>&#x201D;).</p>
+<h3 id="311-unconscionable-conduct">3.1.1 Unconscionable conduct</h3>
+<p>When working on profiling and targeting technology, the nature of the profile itself is to be considered in the context of legal prohibitions on unconscionable conduct. Consider, for example, a profile that is created based on a individual&apos;s behaviour that it is defined with reference to a form of vulnerability, such as individuals with gambling problems. In this speculative scenario, targeting users with a profile of &quot;gambling problem&quot; with ads for services that assist with gambling addictions might be viewed favourably by society. To target the same group with gambling sites and related services (such as access to exploitative credit) may go against good conscious. Australian Consumer Law (ACL) protects consumers and businesses from unconscionable conduct. The prohibition on unconscionable conduct is found in s21 of the ACL, within Schedule 2 <em>Competition and Consumer Act 2010</em> (Cth) (the &#x201C;<em>CCA</em>&#x201D;).</p>
 <p>On September 27, 2018 the Federal Court found unconscionable conduct existed in the facts of the case, <em>Australian Competition Consumer Commission v Equifax Australia Information Services Pty Ltd [2018] FCA 1637</em>. In that case the ACCC alleged Equifax used unfair sales tactic on consumers who were vulnerable. The ACCC argued that Equifax acted unconscionably in selling fee based credit reporting services to vulnerable customers, who were often in difficult circumstances.</p>
 <p>The <em>Australian Securities and Investments Commission Act 2001</em> (Cth) (<em>ASIC Act</em>) also contains protections against unconscionable conduct in. s 12CB(1)</p>
 <p>On June 12, 2019, The High Court of Australia held unconscionable conduct did not exist in the facts of the case, <em>ASIC v Kobelt [2019] HCA 18</em>. The operator of a general store within a remote indigenous community sought authority to access customers Centrelink payments in full. In appeal the court found that the conduct was not unconscionable as the customers entered the system voluntarily and had a basic understanding of how it worked.</p>
 <p>The concept of unconscionable conduct is intentionally broad . The Court will take ino the circumstances of the case, including</p>
 <p>Profiling and Targeting vulnerable groups may be characterised as unconscionable conduct. </p>
-<h3 id="banking-sector-focus-personal-vs-general-advice">Banking sector focus: personal vs general advice</h3>
+<h3 id="312-banking-sector-focus-personal-vs-general-advice">3.1.2 Banking sector focus: personal vs general advice</h3>
 <p><em>ASIC v Westpac</em></p>
-<h2 id="pricing">Pricing</h2>
+<h2 id="32-pricing">3.2 Pricing</h2>
 <p>Algorithmic pricing services are marketed to businesses offering to set their prices at the optimum level. This conduct has been highlighted in research literature as a potential area of interest for regulators. Through the configuration of the system in either of the scenarios below, price collusion behaviour is exhibited by the algorithms.</p>
-<h3 id="scenarios">Scenarios</h3>
-<p>Several businesses use the same provider of the pricing algorithm
+<h3 id="321-scenarios">3.2.1 Scenarios</h3>
+<p>The research literature highlights two specific scenarios of interest to regulators.
+Several businesses use the same provider of the pricing algorithm
 Use of re-enforcement learning algorithms that learn the collusive behaviour</p>
-<h2 id="decisioning">Decisioning</h2>
-<p>AI decisions with legal or financial effect.</p>
-
+<h2 id="33-decisioning">3.3 Decisioning</h2>
+<p>AI decisions with legal or financial effect. Austalia&apos;s anti-dscrimination legislation prohibits </p>
+<h3 id="indirect-discriminaiton-adverse-impact">Indirect discriminaiton (adverse impact)</h3>
+<p>As mentioned in AI Inputs, there are protected attributes including age, disability, race, sex, intersex status, gender identity and sexual orientation. In Australia anti-discriminaiton laws In Australia, it is unlawful to discriminate on the basis of those protected attributes in certain areas of public life. Australia&apos;s federal anti-discrimination laws are contained in the following legislation:  </p>
+<ul>
+<li><a href="https://www.legislation.gov.au/Series/C2004A01302" target="_blank"><em>Age Discrimination Act 2004</em>(Cth)</a>  </li>
+<li><a href="https://www.legislation.gov.au/Series/C2004A04426" target="_blank"><em>Disability Discrimination Act 1992</em>(Cth)</a>  </li>
+<li><a href="https://www.legislation.gov.au/Series/C2004A00274" target="_blank"><em>Racial Discrimination Act 1975</em>(Cth)</a>  </li>
+<li><a href="https://www.legislation.gov.au/Series/C2004A02868" target="_blank"><em>Sex Discrimination Act 1984</em>(Cth)</a>  </li>
+</ul>
+<p>A data scientist, exercising best practice by avoiding the use of any protected attributes in their modelling, may consider themselves to be in compliance with anti-disrcimination legislation. One form of discrimination can occur without the use of protected attributes and without any intention to discriminate. </p>
+<p>Relevent to the practice of AI and ML, is the class of discrimination called indirect discrimination (also referred to as adverse impact). Adverse impact occurs where a policy or process <em>on its face</em> appears to be neutral but in practice has an adverse impact on people with a protected attribute, in circumstances where this is unreasonable. For a data scientist this could occur even where a model does not use protected attributes but where the outcome of the model exhibits difference performance on individuals with protected attributes. This means understanding the impact of a model&apos;s output on each of the protected classes, to check for accuracy equity between the groups.  </p>
+<pre><code>Industry focus: Insurance
+There is an exception to Australia&apos;s anti-discrimination laws for Insurance. For data scientists, 
+knowledge of this distinciton between insurance models and models in other industries is vital. 
+The exception does not apply automatically and is described, as follows:
+</code></pre>
                                 
                                 </section>
                             
@@ -275,7 +290,7 @@ Use of re-enforcement learning algorithms that learn the collusive behaviour</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"3. AI Outputs","level":"1.4","depth":1,"next":{"title":"4. AI Incarnations","level":"1.5","depth":1,"path":"04-AI_Incarnations.md","ref":"04-AI_Incarnations.md","articles":[]},"previous":{"title":"2. AI Inputs","level":"1.3","depth":1,"path":"02-AI_Inputs.md","ref":"02-AI_Inputs.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"scripts":{"docs:prepare":"gitbook install","docs:watch":"npm run docs:prepare && gitbook serve"},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"STRUCTURE.md"},"variables":{},"gitbook":"*"},"file":{"path":"03-AI_Outputs.md","mtime":"2019-11-24T09:28:20.548Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-24T10:13:16.988Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"3. AI Outputs","level":"1.4","depth":1,"next":{"title":"4. AI Incarnations","level":"1.5","depth":1,"path":"04-AI_Incarnations.md","ref":"04-AI_Incarnations.md","articles":[]},"previous":{"title":"2. AI Inputs","level":"1.3","depth":1,"path":"02-AI_Inputs.md","ref":"02-AI_Inputs.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"scripts":{"docs:prepare":"gitbook install","docs:watch":"npm run docs:prepare && gitbook serve"},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"STRUCTURE.md"},"variables":{},"gitbook":"*"},"file":{"path":"03-AI_Outputs.md","mtime":"2019-11-25T05:58:58.494Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-25T06:51:27.871Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
