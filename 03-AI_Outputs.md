@@ -1,5 +1,5 @@
 
-# 3 AI Outputs  
+# 3. AI Outputs  
 By definition, AI achieves human-like intelligence as evidenced in its ability to reach decisions based on the data it consumes. 
 
 ## 3.1 Profiling and targeting   
@@ -25,9 +25,16 @@ _ASIC v Westpac_
 Algorithmic pricing services are marketed to businesses offering to set their prices at the optimum level. This conduct has been highlighted in research literature as a potential area of interest for regulators. Through the configuration of the system in either of the scenarios below, price collusion behaviour is exhibited by the algorithms.
 
 ### 3.2.1 Scenarios
+The research literature highlights two specific scenarios of interest to regulators.
 Several businesses use the same provider of the pricing algorithm
 Use of re-enforcement learning algorithms that learn the collusive behaviour
 
 ## 3.3 Decisioning
-AI decisions with legal or financial effect.
+AI decisions with legal or financial effect. Austalia's anti-dscrimination legislation prohibits 
+
+
+### Indirect discriminaiton (adverse impact)
+
+
+### Industry focus: Insurance
 
