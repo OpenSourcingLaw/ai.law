@@ -1,25 +1,23 @@
 # 2 AI Inputs
 
-This section considers the legal responsibilities for AI modelling inputs. AI model inputs are typically in the form of data. That data may be about different subjects, be from various sources and exist in different forms. Depending on the subject, source and format different aspects of legal responsibility and liability arise. These are considered in the following sub-sections, subject; source and format.  
+This section considers the legal responsibilities for AI modelling inputs. AI model inputs are typically in the form of data. That data may be about different subjects, be from various sources, exist in different forms and undergo further processing or transformations. Depending on the subject, source and format different aspects of legal responsibility and liability arise. These are considered in the following sub-sections, subject; source and format. Emerging norms on data processing are also discussed. 
 
 ## 2.1 Subject 
 
-### 2.1.1 Protected classes of data
-
-### 2.1.2 About an individual  
+### 2.1.1 About an individual  
 When working with data about an individual, an understanding of information privacy laws forms part of the responsibility of the work. In Australia, information privacy laws that regulate the private sector and Federal Government agencies are found in the _Privacy Act 1988_ (Cth) (the _Privacy Act_). The definition of "about" an individual is a threshold quesiton considered by the Courts in the application of the _Privacy Act_. 
 
 In _Privacy Commissioner v Telstra Corporation Limited [2017] FCAFC 4_ the full Federal Court affirmed that just because a person's identity is reasonably ascertainable from a piece of information it does not mean it is personal information under the _Privacy Act_. The defintion requires it must also be "about" a individual. In that case, journalist Ben Grubb asked Telstra for all the metadata that it held about him (around the same time the mandatory metadata retention laws were being debated). Telstra initially gave Mr Grubb some information, but refused to give him access to its mobile network data, which included metadata such as IP addresses and geolocation data. Mr Grubb then complained to the Privacy Commissioner. The Privacy Commissioner determined the mobile network data information in question was "personal information" as Mr Grubb’s identity could be reasonably ascertained from the information by using other information held by Telstra. Telstra appealed to the Administrative Appeals Tribunal which formed the view that mobile network data was about connections between mobile devices and not "about" Mr Grubb. This was upheld by the Full Federal Court that did not find it necessay to consider if mobile network data was personal information because the threshold question has not been met.
 
 At the same time, the mandatory data retention provisions in the _Telecommunications (Interception and Access) Act 1979_ (Cth) section 187LA  deems information that must be retained by telecommunications companies as being personal information “about an individual” if the information relates to the individual or a communication to which the individual is a party.
 
-### 2.1.3 Definition of personal information  
+### 2.1.2 Definition of personal information  
 Once the threshold consideration of "about" an indivdual is met, it becomes relevant to consider if the data you are working with is personal information and, therefore, whether the responsibilities defined in the Privacy Act 1988 (Cth) will apply.  
 
 > "Information or an opinion about an identified individual, or an individual who is reasonably identifiable: whether the information or opinion is true or not; whether the information or opinion is recorded in a material form or not."
 
 
-### 2.1.4 Principles for handling personal information   
+### 2.1.3 Principles for handling personal information   
 If the data could be characterised as personal information, Schedule 1 of the Privacy Act 1988 (Cth) defines the principles to be observed.  
 
 
@@ -39,7 +37,7 @@ If the data could be characterised as personal information, Schedule 1 of the Pr
 | 12 | Access to personal information | Must provide access when requested by an individual (to their own info). |
 | 13 | Correction of personal information | Must facilitate requests by individuals to have their information corrrected. |
   
-### 2.1.5 Issues arising in AI and ML
+### 2.1.4 Issues arising in AI and ML
 
 #### ACCC v Google
 On October 29, 2019 The Australian Competition and Consumer Commission (ACCC) started proceedings in the Federal Court against Google, alleging they engaged in misleading conduct and made false or misleading representations to consumers about the personal location data Google collects, keeps and uses. This is an example of a regulator enforcing APP1, which requires a privacy policy clearly explain how data is collected, used, held and disclosed (if applicable).
@@ -48,8 +46,8 @@ On October 29, 2019 The Australian Competition and Consumer Commission (ACCC) st
 #### Secondary uses of personal information
 The _Privacy Act_ makes a distinction beween primary and secondary uses of data and this has implications for AI inputs. The datasets on which ML is trained are likely to have been collected in the first place for a primary operational purpose related to the individual (e.g. to provide a treatment, to transport a passenger from A to B, to connect a customer’s phone call) (Salinger 2019).  Re-use of that dataset for training ML is potentially a secondary use, unrelated to the primary purpose.  The starting point in privacy law is that secondary uses are not allowed, unless an exception to that rule applies. "With the consent of the individual" is one such exception, but is generally not practical for large datasets.  There are other exceptions such as "for law enforcement purposes" which will generally not apply, which leaves research exceptions as the most likely path for the development of AI.  However, research exceptions (which differ in scope between the federal Privacy Act and State and Territory-based privacy laws) typically define "research" narrowly; requiring elaborate processes to balance and test the ethical implications of allowing the secondary use or disclosure of personal information without consent (such as Human Ethics Review Committees; and raise additional questions about whether the proposed research is in the public interest, such as beneficence and impact on vulnerable populations. Use of information about individuals in AI requires careful observance of the Australian Privacy principles and where it is a secondary use of data it requires extra steps to ensure its use is lawful.
 
-### 2.1.6 Best practice for handling personal information in data science  
-
+### 2.1.5 Best practice for handling personal information in data science  
+Personal information
 
 
 
@@ -88,12 +86,14 @@ Google offers a geocoding service
 ### 2.2.6 Geocoded National Address File (G-NAF)
 G-NAF dataset contains all physical addresses in Australia, over 14 million. It’s the most trusted source of geocoded addresses for Australian businesses and governments. G-NAF has a varitey of uses including building suburb profiles, locating nearby services and the management of emergencies through identificaiton of evacuation routes.  A freely available and well-mainatined version is available on [data.gov.au](https://data.gov.au/dataset/ds-dga-19432f89-dc3a-4ef3-b943-5326ef1dbecc/details?q=G-NAF). G-NAF's terms of use are described as [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/), that allows the work to be shared and adapted with the requirement of attributing the source. There is [one restriction to these terms of use](https://data.gov.au/data/dataset/19432f89-dc3a-4ef3-b943-5326ef1dbecc/resource/9a8f6baa-f790-49a0-84b1-3cb39a6a1b88/download/fact-sheet-open-g-naf-use-restriction.pdf), the data base must not be used to compile lists of addresses for the sending of phyical mail or mailouts, unless a second source has been used to verify the address(es) are capable of receiving physical mail.
 
-### 2.2.7 Best practice for terms of use in data science . 
-Best practice requires adherence to terms of service, acknowledgement of the distinction between private and public information, an use of quality open data. When tthe legality of webscraping and api use in HiQ v Linkedin, LinkedIn was prohibited from enforcing its anti-wescarping terms of use. In contrast, Facebook was penalised by the regulator (the FTC) for not enforcing its terms of service with respect to third parties accessing friend's profiles. The unifying thread between each of these factual scenarios, at their very heart, was the nature of the information concerned, specifciall,y private or public data. In the LinkedIn case, users clearly marked profiles as 'public'. In the Facebook investigation, users who had selected 'private' settings were not protected. Look for online dta sources that are well maintained labelled clearly as intended for use, for example with Creative Commons licenses as shown with the G-NAF dataset.
+### 2.2.7 Best practice for terms of use in data science  
+Best practice requires adherence to terms of service, acknowledgement of the distinction between private and public information, and use of quality open data. When the legality of webscraping was considered by US Courts in HiQ v Linkedin, LinkedIn was prohibited from enforcing its anti-webscraping terms of use. In contrast, Facebook was penalised by the regulator (the FTC) for _not_ enforcing its terms of service with respect to third parties accessing friend's profiles. The unifying thread between each of these factual scenarios, _at their very heart_, is the nature of the information concerned, specifcially, private or public data. In the LinkedIn case, users clearly marked profiles as 'public'. In the Facebook investigation, users who had selected 'private' settings were not protected. When looking online for data sources, seek well-maintained, labelled clearly as intended for use, for example with Creative Commons licenses as shown with the G-NAF example dataset.
 
 ## 2.3 Format: Text, Pictures, video and, copyright
 
 
+## 2.4 Data processing
+The General Data Proection Regulation is a set of European information privacy laws
 
 #### References for this chapter
 Gathering data from online social media platforms is described as "a primordial step in many data science fields" (Hernandez-Suarez _et al_ 2018).
