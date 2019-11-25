@@ -16,10 +16,12 @@ In particular, the concerns can be structured into groupings analgous to the dev
 
 **AI inputs** - concerning the data used by AI technologies, including its subjects (human or otherwise); sources (how it is gathered) and formats (originating in text, image or video).  
 
-**AI outputs** - concerning the outcomes reached by AI techonologies, including its uses to profile and target (individuals), to decision (with financial or legal effect) and to  .
+**AI outputs** - concerning the outcomes reached by AI techonologies, including its uses to profile and target (individuals), to set prices and to decision (with financial or legal effect).
 
-**AI form** - concerning the physical manifesation of AI as a visual and or audio representation.
+**AI incarnations** - concerning the physical manifesation of AI as a visual and or audio representation.  
+
+**AI creators** - concerning the intellectual property regimes data scientists interact with, both as creators of work and consumers of open source.
 
 ## 1.4 Industries and sectors of interest
-
+Industry specific laws have the effect of creating greater obligations in specified circumstances or allowing for exceptions from laws. Where applicable, industry specific scenarios are higlighted to guide best practice for data scientists working within them.
 
