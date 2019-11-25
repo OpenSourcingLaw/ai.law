@@ -42,9 +42,10 @@ As mentioned in AI Inputs, there are protected attributes including age, disabil
      
 A data scientist, exercising best practice by avoiding the use of any protected attributes in their modelling, may consider themselves to be in compliance with anti-disrcimination legislation. One form of discrimination can occur without the use of protected attributes and without any intention to discriminate. 
 
-Relevent to the practice of AI and ML, is the class of discrimination called indirect discrimination (also referred to as adverse impact). Adverse impact occurs where a policy or process _on its face_ appears to be nuetral but in practice has an adverse impact on people with a particular attribute, in circumstances where this is unreasonable. For a data scientist this could occur even where a model does not use protected attrubutes but where the outcome of the model exhibits difference performance between individuals with protected atributes. This means understanding the impact of their model outputs on each of the protected classes, to check for accuracy equity between the groups.  
+Relevent to the practice of AI and ML, is the class of discrimination called indirect discrimination (also referred to as adverse impact). Adverse impact occurs where a policy or process _on its face_ appears to be neutral but in practice has an adverse impact on people with a protected attribute, in circumstances where this is unreasonable. For a data scientist this could occur even where a model does not use protected attributes but where the outcome of the model exhibits difference performance on individuals with protected attributes. This means understanding the impact of a model's output on each of the protected classes, to check for accuracy equity between the groups.  
 
 
     Industry focus: Insurance
-    There is an exception to Australia's anti-discrimination laws for Insurance.
-    For data scientists, knowledge of this distcinciton between insuance models and omodels in other industries is vital
+    There is an exception to Australia's anti-discrimination laws for Insurance. For data scientists, 
+    knowledge of this distcinciton between insurance models and models in other industries is vital. 
+    The exception does not apply automatically and is described, as follows:
