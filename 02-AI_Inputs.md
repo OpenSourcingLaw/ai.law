@@ -1,4 +1,4 @@
-# 2 AI Inputs
+# 2. AI Inputs
 
 This section considers the legal responsibilities for AI modelling inputs. AI model inputs are typically in the form of data. That data may be about different subjects, be from various sources, exist in different forms and undergo further processing or transformations. Depending on the subject, source and format different aspects of legal responsibility and liability arise. These are considered in the following sub-sections, subject; source and format. Emerging norms on data processing are also discussed. 
 
