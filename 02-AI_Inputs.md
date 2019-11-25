@@ -18,7 +18,7 @@ Once the threshold consideration of "about" an indivdual is met, it becomes rele
 
 
 ### 2.1.3 Principles for handling personal information   
-If the data could be characterised as personal information, Schedule 1 of the Privacy Act 1988 (Cth) defines the principles to be observed.  
+If the data could be characterised as personal information, Schedule 1 of the Privacy Act 1988 (Cth) defines the Australian Privacy Principles (APPs) to be observed.  
 
 
 | APP | Short Description | Details |
@@ -44,12 +44,19 @@ On October 29, 2019 The Australian Competition and Consumer Commission (ACCC) st
 
 
 #### Secondary uses of personal information
-The _Privacy Act_ makes a distinction beween primary and secondary uses of data and this has implications for AI inputs. The datasets on which ML is trained are likely to have been collected in the first place for a primary operational purpose related to the individual (e.g. to provide a treatment, to transport a passenger from A to B, to connect a customer’s phone call) (Salinger 2019).  Re-use of that dataset for training ML is potentially a secondary use, unrelated to the primary purpose.  The starting point in privacy law is that secondary uses are not allowed, unless an exception to that rule applies. "With the consent of the individual" is one such exception, but is generally not practical for large datasets.  There are other exceptions such as "for law enforcement purposes" which will generally not apply, which leaves research exceptions as the most likely path for the development of AI.  However, research exceptions (which differ in scope between the federal Privacy Act and State and Territory-based privacy laws) typically define "research" narrowly; requiring elaborate processes to balance and test the ethical implications of allowing the secondary use or disclosure of personal information without consent (such as Human Ethics Review Committees; and raise additional questions about whether the proposed research is in the public interest, such as beneficence and impact on vulnerable populations. Use of information about individuals in AI requires careful observance of the Australian Privacy principles and where it is a secondary use of data it requires extra steps to ensure its use is lawful.
+The _Privacy Act_ makes a distinction beween primary and secondary uses of data and this has implications for AI inputs. [insert defintion of primary purpose here] The datasets on which ML is trained are likely to have been collected in the first place for a primary operational purpose related to the individual (e.g. to provide a service, to transport a passenger, to connect to a mobile network) (Salinger 2019).  Re-use of that dataset for training ML is potentially a secondary use, unrelated to the primary purpose.  The starting point in privacy law is that secondary uses are not allowed, unless an exception to that rule applies. "With the consent of the individual" is one such exception, but is generally not practical for large datasets.  There are other exceptions such as "for law enforcement purposes" which will generally not apply, which leaves research exceptions as the most likely path for the development of AI.  However, research exceptions (which differ in scope between the federal Privacy Act and State and Territory-based privacy laws) typically define "research" narrowly; requiring elaborate processes to balance and test the ethical implications of allowing the secondary use or disclosure of personal information without consent (such as Human Ethics Review Committees) and raise additional questions about whether the proposed research is in the public interest, such as beneficence and impact on vulnerable populations. Use of information about individuals in AI requires careful observance of the APPs and where it is a secondary use of data it requires extra steps to ensure its use is lawful.
+
+#### Creation of personal information
+The creation of
 
 ### 2.1.5 Best practice for handling personal information in data science  
-Personal information
-
-
+There is an excellent [Guide to data analytics and the Australian Privacy Principles](https://www.oaic.gov.au/privacy/guidance-and-advice/guide-to-data-analytics-and-the-australian-privacy-principles/) which offers advice to minimise the use of personal information and the risks of working with it including:  
+* Use de-identified data where possible (the OAIC also provides a guide on de-identfication [here](https://www.oaic.gov.au/privacy/guidance-and-advice/de-identification-and-the-privacy-act/));
+* Ensure the accuracy of the data you are working with (this may involve taking extra steps to check the quality of data provided by third parties);
+* Be open and transparent about privacy practices;
+* Organisations undertaking data analytics activities should include general information abou those activities in their APP privacy policy;
+* Using ‘all the data’ for ‘unknown purposes’ will expose organisations to privacy compliance risks.
+Other methods to minimise the use of personal information include the use of age ranges in place of a specific age. The benefit of working with volumnous and granular, transactional and behaviourial data is that patterns in such data itself can be more insightful than crude measures such as age and gender, and may even lead to greater accuracy than the use of personal information.
 
 ## 2.2 Sources 
 ### 2.2.1 Understanding terms of use  
