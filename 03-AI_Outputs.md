@@ -46,4 +46,4 @@ Relevent to the practice of AI and ML, is the class of discrimination called ind
 
 
 ### Industry focus: Insurance
-There is an exception to Asutralia's anti-discrimination laws
+There is an exception to Australia's anti-discrimination laws
