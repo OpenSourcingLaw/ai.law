@@ -34,12 +34,13 @@ AI decisions with legal or financial effect. Austalia's anti-dscrimination legis
 
 
 ### Indirect discriminaiton (adverse impact)
-As mentioned in AI Inputs, there are protected attributes including age, disability, race, sex, intersex status, gender identity and sexual orientation. In Australia anti-discriminaiton laws In Australia, it is unlawful to discriminate on the basis of those protected attributes in certain areas of public life. Australia's federal anti-discrimination laws are contained in the following legislation:
-     [_Age Discrimination Act 2004_(Cth)](https://www.legislation.gov.au/Series/C2004A01302)
-     [_Disability Discrimination Act 1992_(Cth)](https://www.legislation.gov.au/Series/C2004A04426)
-     [_Racial Discrimination Act 1975_(Cth)](https://www.legislation.gov.au/Series/C2004A00274)
-     [_Sex Discrimination Act 1984_(Cth)](https://www.legislation.gov.au/Series/C2004A02868)
+As mentioned in AI Inputs, there are protected attributes including age, disability, race, sex, intersex status, gender identity and sexual orientation. In Australia anti-discriminaiton laws In Australia, it is unlawful to discriminate on the basis of those protected attributes in certain areas of public life. Australia's federal anti-discrimination laws are contained in the following legislation:  
 
+     [_Age Discrimination Act 2004_(Cth)](https://www.legislation.gov.au/Series/C2004A01302)  
+     [_Disability Discrimination Act 1992_(Cth)](https://www.legislation.gov.au/Series/C2004A04426)  
+     [_Racial Discrimination Act 1975_(Cth)](https://www.legislation.gov.au/Series/C2004A00274)  
+     [_Sex Discrimination Act 1984_(Cth)](https://www.legislation.gov.au/Series/C2004A02868)  
+     
 A data scientist, exercising best practice by avoiding the use of any protected attributes in their modelling, may consider themselves to be in compliance with anti-disrcimination legislation. One form of discrimination can occur without the use of protected attributes and without any intention to discriminate. 
 
 Relevent to the practice of AI and ML, is the class of discrimination called indirect discrimination (also referred o as adverse impact). Adverse impact occurs where apolicy or process _on its face_ appears to be nuetral but in practice has has an adverse impact on people with a particular attribute, in circumstances where this is unreasonable. For a data scientist this means understanding the impact of their model outputs on each of the protected classes, to check, for accuracy equity between the groups. 
