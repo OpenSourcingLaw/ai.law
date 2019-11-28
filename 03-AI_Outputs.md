@@ -1,6 +1,6 @@
 
 # 3. AI Outputs  
-By definition, AI achieves human-like intelligence as evidenced in its ability to reach decisions based on the data it consumes. 
+ ML systems can be specified as supervised or unsupervised learning approaches. The selected software is run over training data, with portions of the data withheld. At various stages, data scientists use the withheld data, that the algorithmic process has not yet "seen", to test its ability to predict, and refine the process on the basis of its performance. At the end of this process, a model has been created, which can be queried with input data, usually to generate outputs known as predictions.  
 
 ## 3.1 Profiling and targeting   
 A common use of machine learning is to categorise indivduals based on the information avaiabile about them, incuding creating profiles and targeting users based on the profiles created. 

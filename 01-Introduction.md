@@ -2,17 +2,26 @@
 # 1. Why a book about AI and law?
 
 ## 1.1 Objective of this work
-This text aims to situate legal responsibilities and liabilities in contexts relatable to data scientists and machine learning engineers, including managers and executives of organisations developing AI. Equally, it is a resource for educators and trainers of data scientists. The need for this text arose where legal expositions of the topic of AI law are typically written by lawyers, for lawyers, structured around areas of law familar to legal professionals and less accessible to practitioners of AI. By structuring legal considerations around tasks, concepts and processes relatable to data scientists, the work seeks to enable data science best practice.
+This text aims to situate legal responsibilities and liabilities in contexts relatable to data scientists and machine learning engineers, including managers and executives of organisations developing AI. Equally, it is a resource for educators and trainers of data scientists. The need for this text arose where legal expositions of the topic of artificial intelligence (AI) law are typically written by lawyers, for lawyers, structured around areas of law familar to legal professionals and less accessible to practitioners of AI. By structuring legal considerations around tasks, concepts and processes relatable to data scientists, the work seeks to enable data science best practice.
 
 
 ## 1.2 Defining AI
-The use of machine learning technologies (also in combination with data gathering devices and sensors) either to *anticipate outcomes that are not yet knowable* for sure, such as whether an individual or firm will repay a loan, or jump bail, or, to *detect and subjectively classify something unknown but somehow knowable using inference rather than direct measurement*—such as whether a submitted tax return is fraudulent or not, or whether an individual is likely to take up an offer for a particular .
+AI is an endeavour of the computer sciences that seeks to create intelligent machines that simulate human intelligence and interactions. The confluence of the digitisation of services; the proliferation of audio and visual sensors with internet connectivity; the availability of data storage, advances in compute and their orchestration into large scale data architectures have allowed for the application of machine learning (ML) algorithms. First developed as early as the 1970s yet in the absence of requisite data and compute they endured an AI winter, ML algorithms were distinctly different from algorithms that came before them. Broadly, algorithms are any process that can be carried out automatically. Prior to ML, these algorithms were manually specified in deterministic programs known as rule-based systems. In rule-based systems, explicit logic turns input variables, such as credit card transaction information, into output variables, such as a flag for fraud. In complex ML algorithmss output variables and input variables are together fed into an algorithm theoretically demonstrated to be able to "learn" from data. Such learning is demonstrated by improvements in accuracy (or reductions in error, or other chosen measure of performance) over successive predictive rounds. This process trains a model exhibiting implicit, rather than explicit logic. Because these ML models are induced, they can be complex and incomprehensible to humans. They were generated with predictive performance rather than interpretability as a priority (Edwards and Veale 2017).
 
+The use of machine learning technologies either to:
+*anticipate outcomes that are not yet knowable for sure*, such as prediction of a future event or behaviour, or, 
+*detect and subjectively classify something unknown but somehow knowable using inference rather than direct measurement*—such as detecting a propensity or a fraudulent.
 
-## 1.3 Areas of concern
-Areas on prime concern serving as hotspots of legal focus relate to the use of technologies that do not model broad or abstract phenomena such as the climate, the economy or resources, but model varied entities—usually people, groups or firms.
+## 1.3 Challenges to Society
+Conceptual challenges posed by AI to society include:
+- How do we speak of certainty about matters of probability?;
+  * Specifically, how does this affect messaging to consumers about the performance or reliability of AI-driven products or features?;
+  * Generally, how do data scientists communicate with decision makers on the choices they are making when they are choosinf thresholds to reduce probabilistic outcomes to decisions which have financial or legal effect?;
+- How do organisations maintain these increasingly interdependent and intricate end-to-end AI systems?; and
+- HOw to regulators review the same?  
 
-In particular, the concerns can be structured into groupings analgous to the development and use of AI technolgies themselves.
+## 1.4 Areas of focus
+Areas on prime concern serving as hotspots of legal focus relate to the use of technologies that do not model broad or abstract phenomena such as the climate, the economy or resources, but model varied entities—usually people, groups or firms. In particular, the concerns can be structured into groupings analgous to the development and use of AI technolgies themselves.
 
 **AI inputs** - concerning the data used by AI technologies, including its subjects (human or otherwise); sources (how it is gathered) and formats (originating in text, image or video).  
 
@@ -22,6 +31,11 @@ In particular, the concerns can be structured into groupings analgous to the dev
 
 **AI creators** - concerning the intellectual property regimes data scientists interact with, both as creators of work and consumers of open source.
 
-## 1.4 Industries and sectors of interest
+## 1.5 Industries and sectors of interest
 Industry specific laws have the effect of creating greater obligations in specified circumstances or allowing for exceptions from laws. Where applicable, industry specific scenarios are higlighted to guide best practice for data scientists working within them.
+___
+
+## References for Chapter 1
+Edwards, L. and Veale, M. (2017) 'Slave to the algorithm? Why a 'right to an explanation' is probably not the remedy you are looking For',
+16 _Duke Law & Technology Review_, 18 (2017)
 
