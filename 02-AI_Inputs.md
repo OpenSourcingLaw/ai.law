@@ -39,15 +39,17 @@ If the data could be characterised as personal information, Schedule 1 of the Pr
   
 ### 2.1.4 Issues arising in AI and ML
 
-#### ACCC v Google
+#### _ACCC v Google_
 On October 29, 2019 The Australian Competition and Consumer Commission (ACCC) started proceedings in the Federal Court against Google, alleging they engaged in misleading conduct and made false or misleading representations to consumers about the personal location data Google collects, keeps and uses. This is an example of a regulator enforcing APP1, which requires a privacy policy clearly explain how data is collected, used, held and disclosed (if applicable).
 
-
 #### Secondary uses of personal information
-The _Privacy Act_ makes a distinction between primary (reaonsably necessary for the organisation's activities) and secondary (other) uses of data and this has implications for AI inputs. The primary purpose for which an organisation gathers data is likely to be operational, including to provide a service. Each provision of the service may be logged as a transaction in a database as record of that primary purpose. The re-use of that datasbase (or an extract of it) for training ML is likely to be a secondary use. The secondary use is not permitted unless it can be characterised as falling within an exception. The exceptions provided wihtin APP6 and relevant to ML, include: "With the consent of the individual"; that an individual would reasonably expect it and related to the prrimary purpose;  not practical for large datasets.  There are other exceptions such as "for law enforcement purposes" which will generally not apply, which leaves research exceptions as the most likely path for the development of AI.  However, research exceptions (which differ in scope between the federal Privacy Act and State and Territory-based privacy laws) typically define "research" narrowly; requiring elaborate processes to balance and test the ethical implications of allowing the secondary use or disclosure of personal information without consent (such as Human Ethics Review Committees) and raise additional questions about whether the proposed research is in the public interest, such as beneficence and impact on vulnerable populations. Use of information about individuals in AI requires careful observance of the APPs and where it is a secondary use of data it requires extra steps to ensure its use is lawful.
+The _Privacy Act_ makes a distinction between primary (reaonsably necessary for the organisation's activities) and secondary (other) uses of data and this has implications for AI inputs. The primary purpose for which an organisation gathers data is likely to be operational, including to provide a service. Each provision of the service may be logged as a transaction in a database as record of that primary purpose. The re-use of that datasbase (or an extract of it) for training ML is likely to be a secondary use. The secondary use is not permitted unless it can be characterised as falling within an exception. The exceptions provided wihtin APP6 and relevant to ML, include: "With the consent of the individual", or; that an individual would reasonably expect it and related to the primary purpose. For large datasets, gathering consent may not be practical. There are other exceptions such as "for law enforcement purposes" which will generally not apply. Use of information about individuals in AI requires careful observance of the APPs and where it is a secondary use of data it requires extra steps to ensure its use is lawful.
 
 #### Creation of personal information
-The creation of
+Preparing data inputs for AI can involve the bringing together of different datasets and this poses the risk of creating new personal information. Where a The creation of datasets for training ML may also involve the joining of multiple data surces together.
+
+### 2.1.5 Protected classes of information 
+Australia's anti-discriminaiton lawa
 
 ### 2.1.5 Best practice for handling personal information in data science  
 There is an excellent [Guide to data analytics and the Australian Privacy Principles](https://www.oaic.gov.au/privacy/guidance-and-advice/guide-to-data-analytics-and-the-australian-privacy-principles/) which offers advice to minimise the use of personal information and the risks of working with it including:  
@@ -84,25 +86,32 @@ In 2018 whistleblower Chritsopher Wylie revealed the details of the harvesting o
 
 In 2019 Facebook was fined USD$50billion by the US Federal Trade Commission for repeated, continued failures to protect privacy of its users.
 
-A typical permitted use of Facebook data is [??? is there one??? e.g. a business page that can use the data of its 'followers'?].
+A typical, permitted use of Facebook data is [facebook audience insights](https://www.facebook.com/business/insights/tools/audience-insights), an analytics tools that reports on demographics (age and gender breakdowns, education levels and, job titles), preferences (interests and hobbies) and (lifestyyles (including relationship status and location).
 
 
-### 2.2.5 Google geo-coding
-Google offers a geocoding service 
+### 2.2.5 Open data
+Typically in contrast to data held by privately-owned entities, open data is a resource that has terms of service that enables its use. The open data movement is a realisation of freedom of information laws. These laws require governments to be transparent about their administrative activities. The early origins of open data are also attributed to sociologist Robert King Merton who stated in 1942 that the results of research
+Geocoded National Address File (G-NAF)
+G-NAF is an example of a freely available, geocoding dataset that contains all physical addresses in Australia (over 14 million). It is the most trusted source of geocoded addresses for Australian businesses and governments. G-NAF has a varitey of uses including building suburb profiles, locating nearby services and the management of emergencies through identificaiton of evacuation routes.  A freely available and well-mainatined version is available on [data.gov.au](https://data.gov.au/dataset/ds-dga-19432f89-dc3a-4ef3-b943-5326ef1dbecc/details?q=G-NAF). G-NAF's terms of use are described as [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/), that allows the work to be shared and adapted with the requirement of attributing the source. There is [one restriction to these terms of use](https://data.gov.au/data/dataset/19432f89-dc3a-4ef3-b943-5326ef1dbecc/resource/9a8f6baa-f790-49a0-84b1-3cb39a6a1b88/download/fact-sheet-open-g-naf-use-restriction.pdf), the database must not be used to compile lists of addresses for the sending of phyical mail or mailouts, unless a second source has been used to verify the address(es) are capable of receiving physical mail. Use of well-maintained, open datasets 
 
-### 2.2.6 Geocoded National Address File (G-NAF)
-G-NAF dataset contains all physical addresses in Australia, over 14 million. It’s the most trusted source of geocoded addresses for Australian businesses and governments. G-NAF has a varitey of uses including building suburb profiles, locating nearby services and the management of emergencies through identificaiton of evacuation routes.  A freely available and well-mainatined version is available on [data.gov.au](https://data.gov.au/dataset/ds-dga-19432f89-dc3a-4ef3-b943-5326ef1dbecc/details?q=G-NAF). G-NAF's terms of use are described as [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/), that allows the work to be shared and adapted with the requirement of attributing the source. There is [one restriction to these terms of use](https://data.gov.au/data/dataset/19432f89-dc3a-4ef3-b943-5326ef1dbecc/resource/9a8f6baa-f790-49a0-84b1-3cb39a6a1b88/download/fact-sheet-open-g-naf-use-restriction.pdf), the data base must not be used to compile lists of addresses for the sending of phyical mail or mailouts, unless a second source has been used to verify the address(es) are capable of receiving physical mail.
-
-### 2.2.7 Best practice for terms of use in data science  
+### 2.2.6 Best practice for terms of use in data science  
 Best practice requires adherence to terms of service, acknowledgement of the distinction between private and public information, and use of quality open data. When the legality of webscraping was considered by US Courts in HiQ v Linkedin, LinkedIn was prohibited from enforcing its anti-webscraping terms of use. In contrast, Facebook was penalised by the regulator (the FTC) for _not_ enforcing its terms of service with respect to third parties accessing friend's profiles. The unifying thread between each of these factual scenarios, _at their very heart_, is the nature of the information concerned, specifcially, private or public data. In the LinkedIn case, users clearly marked profiles as 'public'. In the Facebook investigation, users who had selected 'private' settings were not protected. When looking online for data sources, seek well-maintained, labelled clearly as intended for use, for example with Creative Commons licenses as shown with the G-NAF example dataset.
 
-## 2.3 Format: Text, Pictures, video and, copyright
+## 2.3 Format  
+Data formats have the potential to attract different legal considerations. For structured data, it is the structure of the data, or data model, itself that can be the source of liability. For unstructured data, the detail lies in the contents of the 
 
+### 2.3.1 Structured data
+
+
+### 2.3.2 Unstructured data
+Unstructured data is 
 
 ## 2.4 Data processing
-The General Data Proection Regulation is a set of European information privacy laws
+The General Data Proection Regulation (GDPR) is a set of European information privacy laws
 
-#### References for this chapter
+
+___
+#### References for chapter 2
 Gathering data from online social media platforms is described as "a primordial step in many data science fields" (Hernandez-Suarez _et al_ 2018).
 
 A. Hernandez-Suarez, A., Sanchez-Perez, G., Toscano-Medina, K., Martinez-Hernandez, V., Sanchez, V. and Perez-Meana H., (2018) 'A web scraping methodology for bypassing Twitter API restrictions', arXiv:1803.09875 [cs.IR], <https://arxiv.org/pdf/1803.09875.pdf>
