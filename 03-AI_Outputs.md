@@ -30,7 +30,7 @@ Several businesses use the same provider of the pricing algorithm
 Use of re-enforcement learning algorithms that learn the collusive behaviour
 
 ## 3.3 Decisioning
-AI decisions with legal or financial effect. Austalia's anti-dscrimination legislation prohibits 
+AI decisions with legal or financial effect. Austalia's anti-dscrimination legislation prohibit discriminatiom pn the 
 
 
 ### Indirect discriminaiton (adverse impact)
@@ -42,7 +42,7 @@ As mentioned in AI Inputs, there are protected attributes including age, disabil
      
 A data scientist, exercising best practice by avoiding the use of any protected attributes in their modelling, may consider themselves to be in compliance with anti-disrcimination legislation. One form of discrimination can occur without the use of protected attributes and without any intention to discriminate. 
 
-Relevent to the practice of AI and ML, is the class of discrimination called indirect discrimination (also referred to as adverse impact). Adverse impact occurs where a policy or process _on its face_ appears to be neutral but in practice has an adverse impact on people with a protected attribute, in circumstances where this is unreasonable. For a data scientist this could occur even where a model does not use protected attributes but where the outcome of the model exhibits difference performance on individuals with protected attributes. This means understanding the impact of a model's output on each of the protected classes, to check for accuracy equity between the groups.  
+Relevent to the practice of AI and ML, is the class of discrimination called indirect discrimination (also referred to as adverse impact). Adverse impact occurs where a policy or process _on its face_ appears to be neutral but _in practice_ has an adverse impact on people with a protected attribute, in circumstances where this is unreasonable. For a data scientist this could occur even where a model does not use protected attributes but where the outcome of the model exhibits difference performance on individuals with protected attributes. This means understanding the impact of a model's output on each of the protected classes, to check for accuracy equity between the groups.  
 
 
     Industry focus: Insurance
