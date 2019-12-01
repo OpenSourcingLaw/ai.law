@@ -2,6 +2,8 @@
 
 This section considers the legal responsibilities for AI modelling inputs. AI model inputs are typically in the form of data. That data may be about different subjects, be from various sources, exist in different forms and undergo further processing or transformations. Depending on the subject, source and format different aspects of legal responsibility and liability arise. These are considered in the following sub-sections, subject; source and format. Emerging norms on data processing are also discussed. 
 
+<TOC>
+
 ## 2.1 Subject 
 
 ### 2.1.1 About an individual  
@@ -46,10 +48,10 @@ On October 29, 2019 The Australian Competition and Consumer Commission (ACCC) st
 The _Privacy Act_ makes a distinction between primary (reaonsably necessary for the organisation's activities) and secondary (other) uses of data and this has implications for AI inputs. The primary purpose for which an organisation gathers data is likely to be operational, including to provide a service. Each provision of the service may be logged as a transaction in a database as record of that primary purpose. The re-use of that datasbase (or an extract of it) for training ML is likely to be a secondary use. The secondary use is not permitted unless it can be characterised as falling within an exception. The exceptions provided wihtin APP6 and relevant to ML, include: "With the consent of the individual", or; that an individual would reasonably expect it and related to the primary purpose. For large datasets, gathering consent may not be practical. There are other exceptions such as "for law enforcement purposes" which will generally not apply. Use of information about individuals in AI requires careful observance of the APPs and where it is a secondary use of data it requires extra steps to ensure its use is lawful.
 
 #### Creation of personal information
-Preparing data inputs for AI can involve the bringing together of different datasets and this poses the risk of creating new personal information. Where a The creation of datasets for training ML may also involve the joining of multiple data surces together.
+Preparing data inputs for AI can involve the bringing together of different datasets and this poses the risk of creating new personal information. Where the creation of datasets for training ML may also involve the joining of multiple data surces together.
 
 ### 2.1.5 Protected classes of information 
-Australia's anti-discriminaiton lawa
+Australia's anti-discriminaiton laws in Australia designate 
 
 ### 2.1.5 Best practice for handling personal information in data science  
 There is an excellent [Guide to data analytics and the Australian Privacy Principles](https://www.oaic.gov.au/privacy/guidance-and-advice/guide-to-data-analytics-and-the-australian-privacy-principles/) which offers advice to minimise the use of personal information and the risks of working with it including:  
@@ -61,22 +63,25 @@ There is an excellent [Guide to data analytics and the Australian Privacy Princi
 Other methods to minimise the use of personal information include the use of age ranges in place of a specific age. The benefit of working with voluminous and granular, transactional and behaviourial data is that patterns in such data itself can be more insightful than crude measures such as age and gender, and may even lead to greater accuracy than the use of personal information. 
 
 ## 2.2 Sources 
-### 2.2.1 Understanding terms of use  
-Digital formats revolutionised many industries where the act of copying, that was once laborious and time consuming in printed formats, became instantaneous, cheap and even incidental. Data in digital form is ubiquitous and is capable of being used for various purposes by various parties. When working with data, an understanding of the terms of its use forms part of the responsibility of the work. 
+Digital formats revolutionised many industries where the act of copying, that was once laborious and time consuming in printed formats, became instantaneous, cheap and even incidental. Data in digital form is ubiquitous and is capable of being used for various purposes by various parties. This section contemplates the different mechanisms by which access to, and use of, (potential) data sources are governed. For content found within online websites, 
 
-### 2.2.2 LinkedIn  
+### 2.2.1 Understanding terms of use  
+Gathering data from online social media platforms is described as "a primordial step in many data science fields" (Hernandez-Suarez _et al_ 2018). In this section
+When working with data, an understanding of the terms of its use forms part of the responsibility of the work. 
+
+### LinkedIn  
 LinkedIn is a professional networking site with over 500million members. The platform allows members to post resumes, job listings, statuses and build profesional networks by making "connections" with other LinkedIn members. LinkedIn offers additional services including news feeds, messaging, short form publishing, online learning and from analysis of its members generates insights into [top employers](https://www.linkedin.com/pulse/top-companies-2019-where-australia-wants-work-now-natalie-macdonald/) and [workplace learning](https://learning.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/workplace-learning-report-2019/pdf/workplace-learning-report-2019.pdf). The commercial and research applications of LinkedIn member data include analysis of workforce data, sincluding supply and demand across industries, job types and educational qualifications.
 
 The legality of webscraping LinkedIn user profiles has been considered by US Courts in 2017 and again in 2019. HiQ Labs harvests user profiles from LinkedIn and uses them for analysis including, for example, *predicting* when employees are likely to leave their jobs. LinkedIn's [terms of use prohibits webscraping](https://www.linkedin.com/help/linkedin/answer/56347/prohibition-of-scraping-software?lang=en). On May 23, 2017, LinkedIn sent hiQ Labs a letter demanding that the company cease scraping activities and threatened legal action under the Computer Fraud and Abuse Act (CFAA). HiQ Labs sued LinkedIn, accusing the company of anticompetitive behavior and of violating the company's free speech right to access publicly available information. The US federal judge held LinkedIn cannot block third party web scrapers from scraping data from publicly available profiles.
 
 LinkedIn appealed the decision and on September 9, 2019 the Ninth Circuit upheld the decision of the lower Court, granting an injunction against LinkedIn clocking hiQ from accessing and scraping publicly available websites, [HiQ Labs V. LinkedIn](http://cdn.ca9.uscourts.gov/datastore/opinions/2019/09/09/17-16783.pdf). 
 
-### 2.2.3 Twitter  
+### Twitter  
 Twitter is a social media application with over 300million active users. The platfor allows users to post short messages (of either 280 or 140 characters, dependent on the language) known as "tweets". As a data source, Twitter is used in research across a number of disciplines, such as sociology, computer science, media and communication, political science and engineering. Twitter makes it data available via a [number of Application Programming Interfaces (API)](https://help.twitter.com/en/rules-and-policies/twitter-api). The freely available ['Standard' API](https://developer.twitter.com/en/docs/tweets/search/overview) returns data from the past 7 days. Twitter's [terms of use expressly prohibit scraping](https://twitter.com/en/tos). 
 
 In contrast to LinkedIn, where professional resumes may be considered collections of facts, the strings of text and images available in tweets may be characterised as copyright material, depnding on the circumstances. This legality of these forms of content is discussed below in formats.
 
-### 2.2.4 Facebook  
+### Facebook  
 Facebook is a social media platform with over 2 billion active users. Users connect with friends, post and interact with status updates and use instant messaging amongst other free features. Facebook's [terms of use expressly prohibit scraping](https://www.facebook.com/apps/site_scraping_tos_terms.php). 
 
 In April 2010, Facebook launched an initial version of the Graph API, which allowed third-party developers to access and collect data about Facebook App Users. Graph API also allowed third-party developers to access and collect data about
@@ -88,14 +93,51 @@ In 2019 Facebook was fined USD$50billion by the US Federal Trade Commission for 
 
 A typical, permitted use of Facebook data is [facebook audience insights](https://www.facebook.com/business/insights/tools/audience-insights), an analytics tools that reports on demographics (age and gender breakdowns, education levels and, job titles), preferences (interests and hobbies) and (lifestyyles (including relationship status and location).
 
+### Best practice for terms of use in data science  
+Best practice requires adherence to terms of service, acknowledgement of the distinction between private and public information, and use of quality open data. When the legality of webscraping was considered by US Courts in HiQ v Linkedin, LinkedIn was prohibited from enforcing its anti-webscraping terms of use. In contrast, Facebook was penalised by the regulator (the FTC) for _not_ enforcing its terms of service with respect to third parties accessing friend's profiles. The unifying thread between each of these factual scenarios, _at their very heart_, is the nature of the information concerned, specifcially, private or public data. In the LinkedIn case, users clearly marked profiles as 'public'. In the Facebook investigation, users who had selected 'private' settings were not protected. When looking online for data sources, seek well-maintained, labelled clearly as intended for use, for example with Creative Commons licenses as shown with the G-NAF example dataset.
 
-### 2.2.5 Open data
+
+### 2.2.2 Datasets and license types
+Datasets available online may have licensing conditions attached to them. There are six-broad groups of licenses discussed int his section.
+
+#### Public Domain
+For data scientists, as users of datasets, public domain signals that the dataset can used freely in their work for commercial and non-commercial purposes alike. Whilst attribution is not required, best practice ensures transparency of data sources used. Under this licence, the  owner of the work has dedicated tit o the public domain by waiving all their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. Examples of public domain licences include:
+* *Public domain* the public domain mark;
+* *CC-0* Creative Commons Public Domain Dedication; and
+* *PDDL* Open Data COmmons Public Domain Dedication and Licence.
+
+#### Attribution
+Data scientists, as users of the dataset, are required to give appropriate credit to the dataset owner, provide a link to the license, and indicate if changes were made. The attribution may be made in any reasonable manner, howeverit is beyond the terms of the licence to suggest the licensor endorses the use in the derivative work. Examples include:
+* *CC-BY* Creative Commons by Attribution;
+* *CDLA-Permissive-1.0* Community Data Licence Agreement - Permissive Version 1.0; and
+* *ODC-BY* OPen Data Commons Attribution Licence.
+
+#### Share-alike
+Any uses of the work must be attributed the original and, further, be distributed under the same license as the original. Examples include:
+* *CC-BY-SA* Creative Commons Attribution-ShareAlike 4.0 International; 
+* *CDLA-Sharing-1.0*  Community Data Licence Agreement - Sharing, Version 1.0; and
+* *ODC-ODbL* Open Data Commons Open Data Licence.
+Interestingly, in the case of *CDLA-Sharing-1.0*, it does not do not impose any obligations or restrictions on results obtained from computational use of the data. In contrast, *ODC-ODbL* requires the distribution of any additions, transformation or changes to the dataset. 
+
+#### Non-commercial
+Allows for use of the work and expresly prohibits it from being used for commercial purposes. Examples include:
+* *CC-BY-NC* Creative Commons Attribution-NonCommercial 4.0 International; and
+* *CC-BY-NC-SA* Creative Commons Attribution-NonCommercial-Share-Alike 4.0 International.
+
+#### Database Only
+License applies to the database only and not its contents or data.
+
+#### No Derivatives
+No Derivative Works. You may not alter, transform, or build upon this work.
+* *CC BY-ND* Creative Commons Attribution-NoDerivatives 4.0 International;
+* *CC-BY-NC-ND* Creative Commons Attribution-NonCOmmercial-NoDerivatives 4.0 International.
+
+#### Open data
 Typically in contrast to data held by privately-owned entities, open data is a resource that has terms of service that enables its use. The open data movement is a realisation of freedom of information laws. These laws require governments to be transparent about their administrative activities. The early origins of open data are also attributed to sociologist Robert King Merton who stated in 1942 that the results of research
+
 Geocoded National Address File (G-NAF)
 G-NAF is an example of a freely available, geocoding dataset that contains all physical addresses in Australia (over 14 million). It is the most trusted source of geocoded addresses for Australian businesses and governments. G-NAF has a varitey of uses including building suburb profiles, locating nearby services and the management of emergencies through identificaiton of evacuation routes.  A freely available and well-mainatined version is available on [data.gov.au](https://data.gov.au/dataset/ds-dga-19432f89-dc3a-4ef3-b943-5326ef1dbecc/details?q=G-NAF). G-NAF's terms of use are described as [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/), that allows the work to be shared and adapted with the requirement of attributing the source. There is [one restriction to these terms of use](https://data.gov.au/data/dataset/19432f89-dc3a-4ef3-b943-5326ef1dbecc/resource/9a8f6baa-f790-49a0-84b1-3cb39a6a1b88/download/fact-sheet-open-g-naf-use-restriction.pdf), the database must not be used to compile lists of addresses for the sending of phyical mail or mailouts, unless a second source has been used to verify the address(es) are capable of receiving physical mail. Use of well-maintained, open datasets 
 
-### 2.2.6 Best practice for terms of use in data science  
-Best practice requires adherence to terms of service, acknowledgement of the distinction between private and public information, and use of quality open data. When the legality of webscraping was considered by US Courts in HiQ v Linkedin, LinkedIn was prohibited from enforcing its anti-webscraping terms of use. In contrast, Facebook was penalised by the regulator (the FTC) for _not_ enforcing its terms of service with respect to third parties accessing friend's profiles. The unifying thread between each of these factual scenarios, _at their very heart_, is the nature of the information concerned, specifcially, private or public data. In the LinkedIn case, users clearly marked profiles as 'public'. In the Facebook investigation, users who had selected 'private' settings were not protected. When looking online for data sources, seek well-maintained, labelled clearly as intended for use, for example with Creative Commons licenses as shown with the G-NAF example dataset.
 
 ## 2.3 Format  
 Data formats have the potential to attract different legal considerations. For structured data, it is the structure of the data, or data model, itself that can be the source of liability. For unstructured data, the detail lies in the contents of the 
@@ -112,6 +154,5 @@ The General Data Proection Regulation (GDPR) is a set of European information pr
 
 ___
 #### References for chapter 2
-Gathering data from online social media platforms is described as "a primordial step in many data science fields" (Hernandez-Suarez _et al_ 2018).
 
 A. Hernandez-Suarez, A., Sanchez-Perez, G., Toscano-Medina, K., Martinez-Hernandez, V., Sanchez, V. and Perez-Meana H., (2018) 'A web scraping methodology for bypassing Twitter API restrictions', arXiv:1803.09875 [cs.IR], <https://arxiv.org/pdf/1803.09875.pdf>
