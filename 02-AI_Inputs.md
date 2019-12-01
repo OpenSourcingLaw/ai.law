@@ -104,19 +104,20 @@ Datasets available online may have licensing conditions attached to them. There 
 For data scientists, as users of datasets, public domain signals that the dataset can used freely in their work for commercial and non-commercial purposes alike. Whilst attribution is not required, best practice ensures transparency of data sources used. Under this licence, the  owner of the work has dedicated tit o the public domain by waiving all their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. Examples of public domain licences include:
 * *Public domain* the public domain mark;
 * *CC-0* Creative Commons Public Domain Dedication; and
-* *PDDL* Open Data COmmons Public Domain Dedication and Licence.
+* *PDDL* Open Data Commons Public Domain Dedication and Licence.
 
 #### Attribution
 Data scientists, as users of the dataset, are required to give appropriate credit to the dataset owner, provide a link to the license, and indicate if changes were made. The attribution may be made in any reasonable manner, howeverit is beyond the terms of the licence to suggest the licensor endorses the use in the derivative work. Examples include:
 * *CC-BY* Creative Commons by Attribution;
 * *CDLA-Permissive-1.0* Community Data Licence Agreement - Permissive Version 1.0; and
-* *ODC-BY* OPen Data Commons Attribution Licence.
+* *ODC-BY* Open Data Commons Attribution Licence.
 
 #### Share-alike
 Any uses of the work must be attributed the original and, further, be distributed under the same license as the original. Examples include:
 * *CC-BY-SA* Creative Commons Attribution-ShareAlike 4.0 International; 
 * *CDLA-Sharing-1.0*  Community Data Licence Agreement - Sharing, Version 1.0; and
-* *ODC-ODbL* Open Data Commons Open Data Licence.
+* *ODC-ODbL* Open Data Commons Open Data Licence.  
+
 Interestingly, in the case of *CDLA-Sharing-1.0*, it does not do not impose any obligations or restrictions on results obtained from computational use of the data. In contrast, *ODC-ODbL* requires the distribution of any additions, transformation or changes to the dataset. 
 
 #### Non-commercial
