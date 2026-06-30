@@ -1,0 +1,35 @@
+/* ai.law Glossary — colour-coded term types */
+
+/* Legal term explained for data scientists */
+.legal {
+    background-color: #f3eaff;
+    border-left: 4px solid #7c3aed;
+    padding: 0.1em 0.5em;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0.2em 0;
+}
+
+.legal::before {
+    content: "⚖ Law — ";
+    font-weight: bold;
+    color: #7c3aed;
+    font-size: 0.85em;
+}
+
+/* Data science term explained for lawyers */
+.ds {
+    background-color: #fff4e6;
+    border-left: 4px solid #ea6c00;
+    padding: 0.1em 0.5em;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0.2em 0;
+}
+
+.ds::before {
+    content: "⚙ Data science — ";
+    font-weight: bold;
+    color: #ea6c00;
+    font-size: 0.85em;
+}

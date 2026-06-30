@@ -7,3 +7,4 @@ src = "src"
 [output.html]
 git-repository-url = "https://github.com/OpenSourcingLaw/ai.law"
 edit-url-template = "https://github.com/OpenSourcingLaw/ai.law/edit/main/{path}"
+additional-css = ["theme/custom.css"]
