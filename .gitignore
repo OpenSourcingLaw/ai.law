@@ -1,3 +1,17 @@
 node_modules/
 package-lock.json
 _book/
+
+# mdBook build output
+book/
+
+# Legacy GitBook
+node_modules/
+_book/
+
+# mdBook build output
+book/
+
+# Legacy GitBook
+node_modules/
+_book/

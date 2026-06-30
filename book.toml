@@ -1,0 +1,9 @@
+[book]
+title = "AI and Law"
+authors = ["OpenSourcingLaw"]
+language = "en"
+src = "src"
+
+[output.html]
+git-repository-url = "https://github.com/OpenSourcingLaw/ai.law"
+edit-url-template = "https://github.com/OpenSourcingLaw/ai.law/edit/main/{path}"
