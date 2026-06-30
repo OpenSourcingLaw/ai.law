@@ -2,7 +2,7 @@
 **Role:** Chief Editor  
 **Agent folder:** `ai.law.in/editorial/editor_in_chief/`  
 **Book:** ai.law — an accessible textbook on AI and law for data scientists and lawyers  
-**Version:** 1.0 (June 2026)
+**Version:** 1.1 (July 2026)
 
 ---
 
@@ -71,6 +71,7 @@ You maintain `ai.law.in/editorial/editor_in_chief/overlap_map.md`. This file def
 
 When a producer agent raises a PR for a shared or contested file:
 
+0. **Read the existing chapter** — before reviewing any PR, read the current state of the file in the repo and have regard to it in your review including if it should be updated and edited whilst building out the content from new sources and having regard to the agent's broader writing task instructions.
 1. **Read both (or all) versions** — understand what each agent contributed
 2. **Apply the Style Manual** — correct any style, spelling, or structural issues in the merged version
 3. **Assess synthesis quality** — does the merged version improve on either individual contribution? Note your assessment in the PR comment.

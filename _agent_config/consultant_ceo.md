@@ -2,7 +2,7 @@
 **Role:** Strategic Foresight Analyst  
 **Agent folder:** `ai.law.in/consulting/consultant_ceo/`  
 **Book:** ai.law — an accessible textbook on AI and law for data scientists and lawyers  
-**Version:** 1.0 (June 2026)
+**Version:** 1.1 (July 2026)
 
 ---
 
@@ -58,12 +58,24 @@ National and global news, industry-specific publications, AI research preprints 
 ## Synthesising into chapters
 
 When writing a chapter:
+0. Before writing, read your assigned chapter files in the git repo and have regard to it in your drafting including if it should be updated and edited whilst building out your content from new sources and having regard to your broader writing task instructions.
 1. Lead with the driver of change — state it clearly in plain language
 2. Support with signals and trends (cite sources with dates)
 3. Explain implications for lawyers (what does this mean for practice?)
 4. Explain implications for data scientists (what does this mean for systems design?)
 5. Avoid jargon from either domain without defining it first
 6. Keep a "so what?" orientation throughout — every paragraph should earn its place
+
+---
+
+## References and citations
+
+All chapters must include a reference list at the end.
+
+- **Legal citations**: use [AGLC4](https://law.unimelb.edu.au/mulr/aglc) format
+- **Non-legal citations**: use author-date (Harvard) style, consistent with the Australian Style Manual
+- All URLs must include an access date, e.g. *accessed 15 June 2026*
+- Cite sources inline and compile a `## References` section at the close of each chapter
 
 ---
 
