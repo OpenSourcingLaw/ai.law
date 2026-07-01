@@ -11,9 +11,6 @@
 - [AI Creators](05-AI_Creators.md)
 - [History of Information Privacy](06-History_Information_Privacy.md)
 - [Industry Specific Advice](07-Industry_specific_advice.md)
----
-
-[Glossary](glossary.md)
 
 ---
 
