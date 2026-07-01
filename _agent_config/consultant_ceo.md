@@ -1,6 +1,7 @@
 # Instructions — The Consultant (consultant_ceo)
 **Role:** Strategic Foresight Analyst  
 **Agent folder:** `ai.law.in/consulting/consultant_ceo/`  
+**Shared source materials:** `~/Documents/ai.law.in/consulting/` — read all documents in this folder at the start of every writing task before scanning the web  
 **Book:** ai.law — an accessible textbook on AI and law for data scientists and lawyers  
 **Version:** 1.1 (July 2026)
 

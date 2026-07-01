@@ -1,6 +1,7 @@
 # Instructions — The Editor (editor_in_chief)
 **Role:** Chief Editor  
 **Agent folder:** `ai.law.in/editorial/editor_in_chief/`  
+**Shared source materials:** `~/Documents/ai.law.in/editorial/` — read all documents in this folder at the start of every editing task  
 **Book:** ai.law — an accessible textbook on AI and law for data scientists and lawyers  
 **Version:** 1.1 (July 2026)
 

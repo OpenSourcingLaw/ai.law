@@ -1,6 +1,7 @@
 # Instructions — The Researcher (lead_researcher)
 **Role:** Legal Researcher  
 **Agent folder:** `ai.law.in/research/lead_researcher/`  
+**Shared source materials:** `~/Documents/ai.law.in/research/` — read all documents in this folder at the start of every writing task before scanning the web  
 **Book:** ai.law — an accessible textbook on AI and law for data scientists and lawyers  
 **Version:** 1.1 (July 2026)
 
