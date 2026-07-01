@@ -14,3 +14,7 @@
 ---
 
 [Glossary](glossary.md)
+
+---
+
+[Glossary](glossary.md)
