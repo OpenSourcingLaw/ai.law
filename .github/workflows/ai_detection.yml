@@ -1,0 +1,150 @@
+name: AI Detection Evaluation
+
+on:
+  push:
+    branches: ["main"]
+    paths: ["src/0*.md"]   # chapter files only — not SUMMARY.md, README.md, glossary.md
+  workflow_dispatch:       # manual trigger — scores ALL chapters (use for baseline)
+
+permissions:
+  contents: write
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2   # needed to diff against previous commit on push
+
+      - name: Score chapters with GPTZero
+        env:
+          GPTZERO_API_KEY: ${{ secrets.GPTZERO_API_KEY }}
+          EVENT_NAME: ${{ github.event_name }}
+          COMMIT_SHA: ${{ github.sha }}
+        run: |
+          python3 << 'PYEOF'
+          import os, json, glob, subprocess, datetime
+          import urllib.request, urllib.error
+
+          api_key  = os.environ['GPTZERO_API_KEY']
+          event    = os.environ['EVENT_NAME']
+          sha      = os.environ['COMMIT_SHA'][:7]
+
+          # ── Determine which files to score ──────────────────────────────
+          if event == 'workflow_dispatch':
+              files = sorted(glob.glob('src/0*.md'))
+          else:
+              result = subprocess.run(
+                  ['git', 'diff', '--name-only', 'HEAD~1', 'HEAD'],
+                  capture_output=True, text=True
+              )
+              files = [f for f in result.stdout.strip().split('\n')
+                       if f.startswith('src/0') and f.endswith('.md') and os.path.isfile(f)]
+
+          if not files:
+              print("No chapter files changed — skipping evaluation.")
+              exit(0)
+
+          # ── Read overlap map for agent assignments ───────────────────────
+          overlap = {}
+          try:
+              with open('_agent_config/overlap_map.md') as f:
+                  for line in f:
+                      if '|' in line and 'src/' in line:
+                          parts = [p.strip() for p in line.split('|')]
+                          if len(parts) >= 4 and parts[1].startswith('src/'):
+                              overlap[parts[1]] = parts[2]
+          except Exception:
+              pass
+
+          # ── Score each file ──────────────────────────────────────────────
+          os.makedirs('_evaluations/ai_detection', exist_ok=True)
+          timestamp = datetime.datetime.utcnow().strftime('%Y-%m-%d_%H-%M-%S')
+          report_path = f'_evaluations/ai_detection/{timestamp}_report.md'
+
+          rows = []
+          for filepath in files:
+              with open(filepath, encoding='utf-8') as f:
+                  content = f.read()[:50000]   # GPTZero API character limit
+
+              try:
+                  payload = json.dumps({'document': content}).encode('utf-8')
+                  req = urllib.request.Request(
+                      'https://api.gptzero.me/v2/predict/text',
+                      data=payload,
+                      headers={
+                          'x-api-key': api_key,
+                          'Content-Type': 'application/json',
+                          'Accept': 'application/json'
+                      }
+                  )
+                  with urllib.request.urlopen(req, timeout=30) as resp:
+                      data = json.loads(resp.read())
+
+                  doc       = data['documents'][0]
+                  ai_prob   = round(doc['average_generated_prob'], 3)
+                  flagged   = sum(1 for s in doc.get('sentences', [])
+                                  if s.get('generated_prob', 0) > 0.5)
+                  status    = '⚠️ above threshold' if ai_prob > 0.5 else '✅ below threshold'
+
+              except Exception as e:
+                  ai_prob = None
+                  flagged = '-'
+                  status  = f'error: {e}'
+
+              agent = overlap.get(filepath, 'unknown')
+              rows.append((filepath, agent, ai_prob, flagged, status))
+              print(f"  {filepath}: {ai_prob} ({status})")
+
+          # ── Write report ─────────────────────────────────────────────────
+          date_str = datetime.datetime.utcnow().strftime('%d %B %Y %H:%M UTC')
+          mode     = 'all chapters (manual baseline run)' if event == 'workflow_dispatch' \
+                     else f'changed files — commit {sha}'
+
+          lines = [
+              '# AI Detection Report',
+              f'**Date:** {date_str}  ',
+              f'**Tool:** GPTZero  ',
+              f'**Mode:** {mode}  ',
+              '',
+              '| Chapter | Agent | AI Probability | Sentences Flagged | Status |',
+              '|---------|-------|:--------------:|:-----------------:|--------|',
+          ]
+
+          for filepath, agent, ai_prob, flagged, status in rows:
+              prob_str = str(ai_prob) if ai_prob is not None else 'error'
+              lines.append(f'| `{filepath}` | {agent} | {prob_str} | {flagged} | {status} |')
+
+          valid_probs = [r[2] for r in rows if r[2] is not None]
+          if valid_probs:
+              avg = round(sum(valid_probs) / len(valid_probs), 3)
+              lines += [
+                  '',
+                  '## Summary',
+                  f'- **Highest AI probability:** {max(valid_probs)}',
+                  f'- **Lowest AI probability:** {min(valid_probs)}',
+                  f'- **Average across scored chapters:** {avg}',
+                  f'- **Chapters above 0.5 threshold:** '
+                  f'{sum(1 for p in valid_probs if p > 0.5)} / {len(valid_probs)}',
+                  '',
+                  '## Findings for Editor',
+                  '_Complete after reviewing scores — note any systematic patterns '
+                  'by agent or chapter type._',
+              ]
+
+          with open(report_path, 'w', encoding='utf-8') as f:
+              f.write('\n'.join(lines) + '\n')
+
+          print(f"\nReport written → {report_path}")
+          PYEOF
+
+      - name: Commit evaluation report
+        run: |
+          git config user.name  "ai-detection-evaluator"
+          git config user.email "evaluator@ai.law"
+          git add _evaluations/
+          git diff --staged --quiet || \
+            git commit -m "eval: AI detection report $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push origin main
