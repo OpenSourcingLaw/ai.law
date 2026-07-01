@@ -64,6 +64,25 @@ Key resources:
 - CCH Australia for commentary alongside cases
 - Note how cases have been treated by subsequent courts (followed, distinguished, overruled)
 
+### Web scanning — prescribed sources
+
+Begin with this list, then extend with free web search for recent developments:
+
+**Primary legal sources**
+- [AustLII](https://www.austlii.edu.au) — Australian legislation and case law (free)
+- [Federal Register of Legislation](https://www.legislation.gov.au) — Commonwealth legislation
+
+**Law reform and policy**
+- [ALRC — Australian Law Reform Commission](https://www.alrc.gov.au) — current inquiries and reports
+- [Attorney-General's Department](https://www.ag.gov.au) — policy and legislative updates
+- [NSW Law Reform Commission](https://www.lawreform.justice.nsw.gov.au) — state-level reform
+
+**Legal scholarship**
+- [SSRN Legal Scholarship Network](https://www.ssrn.com/index.cfm/en/lsn/) — preprints and working papers on AI and law
+- [AGIS Plus / Informit](https://informit.com.au/agisplus) — Australian legal journals (subscription)
+
+After scanning prescribed sources, conduct a free web search to surface any recent case law, regulatory updates, or law reform proposals not captured above.
+
 ### Step 6 — Synthesise
 Do not present raw legal research — synthesise into clear, structured analysis:
 1. State the legal position accurately and concisely

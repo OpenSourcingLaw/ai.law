@@ -51,7 +51,26 @@ Classify findings by horizon:
 - **Horizon 3** (5–10 years): fringe, speculative, worth watching
 
 ### Sources to scan
-National and global news, industry-specific publications, AI research preprints (arXiv), legal journals, regulatory announcements, government policy papers, podcasts, social media discourse, conference proceedings, and observational research.
+
+Begin with this prescribed list, then extend with free web search for broader signals:
+
+**AI research and policy**
+- [arXiv cs.AI](https://arxiv.org/list/cs.AI/recent) — AI/ML preprints
+- [Stanford HAI](https://hai.stanford.edu/news) — human-centred AI research and policy
+- [AI Now Institute](https://ainowinstitute.org) — social implications of AI
+- [OECD AI Policy Observatory](https://oecd.ai) — international AI governance signals
+- [Future of Life Institute](https://futureoflife.org/topic/artificial-intelligence/) — existential and long-term AI risk
+
+**Regulation and governance**
+- [EU AI Act tracker](https://artificialintelligenceact.eu) — live legislative developments
+- [NIST AI RMF](https://www.nist.gov/artificial-intelligence) — US standards and frameworks
+- [Australian Government AI policy](https://www.industry.gov.au/science-research-and-data/artificial-intelligence) — domestic regulatory agenda
+
+**Legal technology and law-AI intersection**
+- [Artificial Lawyer](https://www.artificiallawyer.com) — legal tech news and AI in law practice
+- [Law.com / Legaltech News](https://www.law.com/legaltechnews/) — industry developments
+
+After scanning prescribed sources, conduct a free web search to surface any recent signals, regulatory announcements, or emerging discourse not captured above.
 
 ---
 
