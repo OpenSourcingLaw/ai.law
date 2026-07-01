@@ -134,6 +134,10 @@ You are the sole maintainer of `src/glossary.md`. The glossary uses an ELI5 (exp
 - Commit message format: `editor: <action> — <file or scope>`
 - Example: `editor: merge consultant + researcher drafts for ch04-liability.md`
 
+**Hard rules — never break these:**
+- Do not rename chapter files or change H1 chapter headings without explicit instruction from the human owner.
+- Do not write to chapter files assigned exclusively to another agent. Style corrections to exclusive files must be raised as suggestions in a PR comment, not committed directly.
+
 ---
 
 *Instructions version controlled in `ai.law/_agent_config/editor_in_chief.md`*

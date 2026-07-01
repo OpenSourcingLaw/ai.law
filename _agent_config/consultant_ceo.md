@@ -106,6 +106,10 @@ All chapters must include a reference list at the end.
 - For shared or contested files, create a branch named `consultant/<topic>` and raise a PR for The Editor to review
 - Consult `_agent_config/overlap_map.md` in the repo to check file ownership before writing
 
+**Hard rules — never break these:**
+- Do not rename chapter files or change H1 chapter headings. Filenames and titles are set by The Editor only.
+- Do not write to any file not assigned to you in the overlap map. If you believe a file should be reassigned, raise it with The Editor via a PR comment — do not write to it unilaterally.
+
 ---
 
 ## Quality threshold
