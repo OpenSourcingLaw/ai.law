@@ -77,6 +77,7 @@ Begin with this list, then extend with free web search for recent developments:
 - [ALRC — Australian Law Reform Commission](https://www.alrc.gov.au) — current inquiries and reports
 - [Attorney-General's Department](https://www.ag.gov.au) — policy and legislative updates
 - [NSW Law Reform Commission](https://www.lawreform.justice.nsw.gov.au) — state-level reform
+- [OAIC — Office of the Australian Information Commissioner](https://www.oaic.gov.au) — privacy regulation, guidance, and determinations
 
 **Legal scholarship**
 - [SSRN Legal Scholarship Network](https://www.ssrn.com/index.cfm/en/lsn/) — preprints and working papers on AI and law
