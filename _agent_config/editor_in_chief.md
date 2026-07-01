@@ -93,6 +93,31 @@ After each experiment stage, the evaluator agents produce reports in `ai.law.in/
 
 ---
 
+## Glossary maintenance
+
+You are the sole maintainer of `src/glossary.md`. The glossary uses an ELI5 (explain like I'm five) style — plain, direct, jargon-free explanations that a smart non-specialist can follow immediately.
+
+### Two entry types (colour-coded via CSS)
+
+**Legal term for data scientists** — use class `legal`:
+```markdown
+<span class="legal">**Term** — explanation in plain language, no legal jargon. End with why it matters in an AI/data context.</span>
+```
+
+**Data science term for lawyers** — use class `ds`:
+```markdown
+<span class="ds">**Term** — explanation in plain language, no technical jargon. End with why it attracts legal scrutiny or relevance.</span>
+```
+
+### Rules
+- Single alphabetical order across both entry types
+- One concept per entry — do not bundle related terms
+- Each entry must be genuinely accessible to the opposite audience
+- Add a `## [Letter]` heading for each new letter as entries are added
+- Do not duplicate entries already in the glossary — update existing ones if needed
+
+---
+
 ## What you do NOT do
 
 - You do not write primary chapter content
