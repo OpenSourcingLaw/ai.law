@@ -28,7 +28,8 @@ jobs:
           import os, json, glob, subprocess, datetime
           import urllib.request, urllib.error
 
-          api_key  = os.environ['GPTZERO_API_KEY']
+          api_key  = os.environ['GPTZERO_API_KEY'].strip()
+          print(f"API key length: {len(api_key)}, first 4 chars: {api_key[:4]}")
           event    = os.environ['EVENT_NAME']
           sha      = os.environ['COMMIT_SHA'][:7]
 
