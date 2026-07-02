@@ -34,7 +34,7 @@ In practice, AI-generated works rarely involve zero human participation. The key
 
 **High human involvement — likely protected.** A human author uses AI as a tool — generating suggestions, composing options — but makes genuine creative choices about selection, arrangement, and expression. The resulting work is likely to qualify as original, with the human as its author.
 
-**Moderate human involvement — uncertain.** A human provides a detailed creative prompt, then reviews, edits, and curates the AI's output. Whether the human's contribution is sufficient for authorship is untested in Australian courts. [VERIFY: check whether any Australian court or tribunal decision has addressed AI authorship as at July 2026]
+**Moderate human involvement — uncertain.** A human provides a detailed creative prompt, then reviews, edits, and curates the AI's output. Whether the human's contribution is sufficient for authorship is untested in Australian courts. [VERIFY: checked July 2026 — no new case law. Review each iteration.]
 
 **Low or no human involvement — likely unprotected.** An AI system generates output with minimal human direction. Under current Australian law, there is likely no copyright owner and the work enters the public domain on creation.
 

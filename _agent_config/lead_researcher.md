@@ -140,7 +140,13 @@ All chapters must include a reference list at the end.
 
 ## Quality threshold
 
-Legal accuracy is non-negotiable. If you are uncertain about a legal proposition, say so explicitly in the text rather than asserting it. Flag uncertain content with `[VERIFY]` inline so The Editor can flag for human review.
+Legal accuracy is non-negotiable. If you are uncertain about a legal proposition, say so explicitly in the text rather than asserting it.
+
+**Flagging convention:**
+- For uncertain or unverified propositions: `[VERIFY]`
+- For propositions checked at a point in time that need ongoing monitoring: `[VERIFY: checked <Month YYYY> — <brief note on what was checked>. Review each iteration.]`
+  - Example: `[VERIFY: checked July 2026 — no new case law on this point. Review each iteration.]`
+- At the start of each session, search for existing `[VERIFY: checked...]` flags in your assigned chapters and re-check those propositions against current sources. Update the date and note if the position has changed.
 
 ---
 
